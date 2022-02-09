@@ -1,7 +1,8 @@
 ---
+tags: [Coderhouse, JavaScript]
 title: '[JavaScript Clase 13] AJAX con jQuery'
 created: '2021-08-09T04:59:57.140Z'
-modified: '2021-08-09T06:41:10.200Z'
+modified: '2021-08-12T20:25:01.523Z'
 ---
 
 # [JavaScript Clase 13] AJAX con jQuery

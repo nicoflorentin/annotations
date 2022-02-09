@@ -1,11 +1,11 @@
 ---
 tags: [Coderhouse, CSS]
-title: Flexbox y Grids
+title: '[CSS] Flexbox y Grids'
 created: '2021-05-27T18:35:38.163Z'
-modified: '2021-07-08T03:51:08.954Z'
+modified: '2022-02-09T05:55:32.304Z'
 ---
 
-# Flexbox y Grids
+# [CSS] Flexbox y Grids
 
 ## Flex container
 

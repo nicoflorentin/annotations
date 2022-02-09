@@ -1,11 +1,11 @@
 ---
 tags: [Coderhouse, CSS]
-title: Bootsrap + Themes
+title: '[CSS] Bootsrap + Themes'
 created: '2021-05-07T04:12:37.754Z'
-modified: '2021-07-02T21:45:06.334Z'
+modified: '2022-02-09T05:55:39.249Z'
 ---
 
-# Bootsrap + Themes
+# [CSS] Bootsrap + Themes
 
 ## Bootstrap
 
