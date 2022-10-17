@@ -2,7 +2,7 @@
 tags: [Coderhouse, JavaScript]
 title: '[JavaScript Clase 6] Arrays'
 created: '2021-07-02T21:09:48.327Z'
-modified: '2021-08-05T14:35:26.786Z'
+modified: '2022-09-13T01:56:34.167Z'
 ---
 
 # [JavaScript Clase 6] Arrays
@@ -92,6 +92,15 @@ console.log( miArray.toString() ); //imprime "marca,3,palabra"
 const miArray = ["marca", 3, "palabra"];
 miArray.push('otro elemento');
 console.log(miArray.length); //El array ahora tiene 4 posiciones
+```
+
+#### shift
+Elimina un elemento del principio del array, lo retorna en caso de querer asignarlo a una variable
+```js
+const miArray = ["marca", 3, "palabra"];
+let elemento = miArray.shift();
+console.log(miArray.length); //El array ahora tiene 2 posiciones
+console.log(elemento) // 'marca'
 ```
 
 #### join
