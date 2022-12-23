@@ -2,7 +2,7 @@
 tags: [Coderhouse]
 title: Git y GitHub
 created: '2022-10-04T18:32:08.564Z'
-modified: '2022-10-04T18:57:39.584Z'
+modified: '2022-11-22T06:55:51.463Z'
 ---
 
 # Git y GitHub
@@ -102,6 +102,12 @@ $ git branch -l
   responsive
 
 Aparece un listado con nuestras ramas (la rama principal -master-) 
+
+#### Borrar Ramas : 
+// delete branch locally
+git branch -d localBranchName
+// delete branch remotely
+git push origin --delete remoteBranchName
 
 Para borrar una rama usamos el comando git branch -D [nombre de la rama]
 john@MyShopSolutions MINGW64 /c/git/nuevo_repo (master)

@@ -1,14 +1,16 @@
 ---
 tags: [React]
-title: '[React] Rendering on React (www.developerway.com)'
+title: '[React] Rendering on React'
 created: '2022-09-23T19:52:28.535Z'
-modified: '2022-10-04T18:33:03.977Z'
+modified: '2022-10-20T03:14:21.349Z'
 ---
 
-# [React] Rendering on React (www.developerway.com)
+# [React] Rendering on React
+
+Source : https://www.developerway.com/posts/react-re-renders-guide#part1
 
 When React component re-renders itself?
-There are four reasons why a component would re-render itself: state changes, parent (or children) re-renders, context changes, and hooks changes. There is also a big myth: that re-renders happen when the component’s props change. By itself, it’s not true (see the explanation below).
+There are four reasons why a component would re-render itself: **state changes, parent (or children) re-renders, context changes, and hooks changes**. There is also a big myth: that re-renders happen when the component’s props change. By itself, it’s not true (see the explanation below).
 
 🧐 Re-renders reason: state changes
 When a component’s state changes, it will re-render itself. Usually, it happens either in a callback or in useEffect hook.

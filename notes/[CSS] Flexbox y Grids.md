@@ -2,7 +2,7 @@
 tags: [Coderhouse, CSS]
 title: '[CSS] Flexbox y Grids'
 created: '2021-05-27T18:35:38.163Z'
-modified: '2022-02-09T05:55:32.304Z'
+modified: '2022-11-02T05:56:37.616Z'
 ---
 
 # [CSS] Flexbox y Grids
@@ -48,7 +48,7 @@ modified: '2022-02-09T05:55:32.304Z'
     - el elemento se encoge en caso que el máximo ancho sea alcanzado por los elementos
   - **flex-basis:** ancho | auto
     - define el ancho de un elemento inicial
-  - flex: none | flex-grow flex-shrink flex-basis **(método abreviado)**
+  - **flex:** none | flex-grow flex-shrink flex-basis **(método abreviado)**
   - **align-self:** auto | stretch | center | flex-start | flex-end | baseline | initial | inherit
     - especifica la alineación del elemento seleccionado dentro del contenedor flexible
 

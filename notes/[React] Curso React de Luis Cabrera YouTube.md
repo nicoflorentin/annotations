@@ -1,8 +1,8 @@
 ---
-tags: [React]
+tags: [JavaScript, React]
 title: '[React] Curso React de Luis Cabrera YouTube'
 created: '2022-07-28T04:30:04.413Z'
-modified: '2022-09-28T06:09:44.109Z'
+modified: '2022-10-31T19:43:17.672Z'
 ---
 
 # [React] Curso React de Luis Cabrera YouTube
