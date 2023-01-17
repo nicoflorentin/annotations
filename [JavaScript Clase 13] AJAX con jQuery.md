@@ -20,11 +20,11 @@ Cada vez que utilizamos el navegador para acceder a una dirección web (por ejem
 El mencionado método de petición sirve para solicitar un recurso específico del servidor. Las peticiones GET son utilizadas para  acceder a datos, páginas o imágenes, entre otros recursos.  Si nos dirigimos a la pestaña red (network) de nuestra consola de desarrollo, podremos observar todas las peticiones realizadas por el cliente al momento de solicitar un sitio:
 
 <img src="../attachments/get.png" style="width:700px">
-
+![[get.png]]
 Podemos observar que por cada petición, existe una descripción de estado (status): estos son códigos de respuesta otorgados por el servidor cada vez que el cliente realiza una. El código 200 significa que el recurso solicitado ha sido recuperado, y se transmite en forma de respuesta. Para el caso de una petición GET sobre un documento HTML, el servidor responde la estructura del propio documento, por ejemplo:
 
 <img src="../attachments/get2.png" style="width:700px">
-
+![[get2.png]]
 Como programadores/as, empleamos el código de respuesta de la petición GET para saber si el recurso se obtuvo correctamente; de ser así, podemos incluir la respuesta en nuestra aplicación, caso contrario volvemos a solicitar el elemento al servidor, informamos al usuario que el mismo no se cargó correctamente, o no existe.
 
 ### Método POST
@@ -34,19 +34,19 @@ Cada vez que enviamos datos usando un formulario, empleamos el método POST, com
 El método POST nos permite enviar datos al servidor, los cuales serán procesados y posiblemente almacenados en una base. Asimismo, para la petición POST contamos con el código de respuesta, el cual será 200 si la información fue procesada correctamente:
 
 <img src="../attachments/post.png" style="width:700px">
-
+![[post.png]]
 Como programadores/as empleamos el código de respuesta de la petición POST para saber si la informaciòn enviada se procesó correctamente, y en consecuencia efectuar una salida de confirmación de registro.
 
 También es posible visualizar la información enviada durante una petición POST, al igual que el tipo de información (Content-Type), en la parte de la petición HTTP identificada como la cabecera o header:
 
 <img src="../attachments/post2.png" style="width:700px">
-
+![[post2.png]]
 ### Diferencias entre GET y POST
 
 Si bien existen otros métodos HTTP, GET y POST son los más empleados porque permiten cubrir gran parte de las situaciones de comunicación cliente-servidor. Es decir, solicitar y enviar datos al back-end es una tarea recurrente en nuestra aplicación, por lo cual tenemos la necesidad de conocer cómo funcionan estos métodos, y cuáles son sus diferencias. Para compararlos, podemos tomar la siguiente tabla como referencia:
 
 <img src="../attachments/get-post.png" style="width:700px">
-
+![[get-post.png]]
 Una de las diferencias más importantes entre ambos es que GET está pensado como método de acceso, razón por la cual las URLs GET pueden ser almacenadas en el historial, o indexadas por buscadores. En cambio las direcciones que emplean POST, al ser este un método reservado al envío de datos en distintos formatos, no pueden utilizarse para navegar.
 
 Cabe aclarar que es posible que una solicitud GET contenga parámetros, lo cual implica enviar cierta información al servidor en la propia dirección (por ejemplo: http://www.domain.com/index.html?parametro1=value1). Generalmente, la información más relevante a almacenar en el servidor se envía usando POST, ya que este método permite determinar el formato de la información a enviar, usando una ruta de acceso no disponible mediante GET.
@@ -69,7 +69,7 @@ Estos parámetros son procesados por servidor para realizar operaciones, y luego
 Se recibe mediante **texto plano**. Una forma de estandarizar este proceso y recibir información más compleja es utilizar **JSON**. Como ya vimos, es un formato basado en texto plano para representar datos estructurados en la sintaxis de objetos de JavaScript. De esa forma podemos recibir texto plano, texto en HTML, arrays, etc.
 
 <img src="../attachments/json.png" style="width:500px">
-
+![[json.png]]
 ## Métodos AJAX con jQuery
 
 Ahora que contamos con un reconocimiento del funcionamiento de HTTP,  es preciso recordar que el objetivo al emplear AJAX es realizar peticiones HTTP al servidor, y procesar las respuestas en segundo plano. Para esto, realizaremos las peticiones usando JavaScript o alguna librería. 
@@ -227,7 +227,7 @@ $( document ).ready(function() {
 Si tomamos por ejemplo la API de JSONPlaceholder, podremos notar que existen distintas rutas que podemos usar:
 
 <img src="../attachments/routes.png" style="width:500px">
-
+![[routes.png]]
 Cada una de estas direcciones puede ser empleada teniendo en cuenta el tipo de método HTTP soportado, es decir que la llamada debe usar el método señalando: si es GET la llamada asíncrona con jQuery es $.get(); en cambio, si la ruta es POST, el método de llamada es $.post().
 
 Pueden existir direcciones que pueden ser llamadas con màs de un método HTTP (como es el caso de /post en JSONPlaceholder) pero esta configuración depende del servidor, en específico depende de cómo el backend del api está construido y que métodos HTTP admite en cada ruta.

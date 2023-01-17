@@ -1,7 +1,8 @@
 ---
+tags: [CSS]
 title: '[CSS] CSS fundamentals'
 created: '2022-11-08T20:33:44.784Z'
-modified: '2022-11-23T03:50:50.017Z'
+modified: '2023-01-02T23:38:55.514Z'
 ---
 
 # [CSS] CSS fundamentals
@@ -99,6 +100,77 @@ El tamaño default en los navegadores es de aproximadamente **16 pixels**. **Una
    */
    -ms-user-select: none;
    user-select: none;
+}
+```
+
+## Center a div : 
+```css
+.center {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;    
+    width: 150px;
+}
+```
+
+## CSS RESET : 
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+```
+
+## CSS priorities : 
+
+Value defined as Important **>** Inline **>** id nesting **>** id **>** class nesting **>** class **>** tag nesting **>** tag.
+
+## ScrollBar style : 
+```css
+html {
+	scrollbar-width: normal;
+	scrollbar-color: red;
+}
+html::-webkit-scrollbar {
+	width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+	background-color: #1C1C1C;
+}
+html::-webkit-scrollbar-thumb:hover {
+	background-color: #464646;
+}
+html::-webkit-scrollbar-track {
+	background-color: white;
+}
+```
+
+## Prevent Dark Mode : 
+
+```html
+<meta name="color-scheme" content="light only">
+<meta name="color-scheme" content="light dark">
+```
+o
+```css
+:root {
+     color-scheme: light only;
+}
+```
+
+## Text rendering : 
+optimizeLegibility optimiza las letras muy juntas cuando el fontsize es menor a 20px : 
+```css
+:root {
+text-rendering: auto;
+text-rendering: optimizeSpeed;
+text-rendering: optimizeLegibility;
+text-rendering: geometricPrecision;
 }
 ```
 
