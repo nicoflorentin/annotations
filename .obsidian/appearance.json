@@ -1,8 +1,14 @@
 {
   "accentColor": "",
+<<<<<<< HEAD
   "theme": "moonstone",
   "baseFontSize": 15,
   "showViewHeader": true,
   "nativeMenus": false,
   "translucency": false
+=======
+  "theme": "obsidian",
+  "interfaceFontFamily": "Consolas",
+  "nativeMenus": false
+>>>>>>> 95d1ff3b5a63f459d8228d4e5f93c1f3e2d261e2
 }
