@@ -145,12 +145,12 @@ You can learn more about this approach in the JSS official documentation. There�
 
 Styled-components is a further library that implements the above-mentioned CSS-in-JS technique. It utilizes tagged template literals — which contain actual CSS code between two backticks — to style your components. This is nice, as you can then copy/paste CSS code from another project (or anywhere else on the Web) and have things work. There’s no converting to camel case or to JS object syntax as with some other libraries.
 
-Styled-components also removes the mapping between components and styles. As can be read in their documentation, this means that when you’re defining your styles, you’re actually creating a normal React component that has your styles attached to it. This makes your code more succinct and easy to follow, as you end up working with a <Layout> component, as opposed to a <div> with a class name of “layout”.
+Styled-components also removes the mapping between components and styles. As can be read in their documentation, this means that when you’re defining your styles, you’re actually creating a normal React component that has your styles attached to it. This makes your code more succinct and easy to follow, as you end up working with a Layout component, as opposed to a div with a class name of “layout”.
 
 Props can be used to style styled components in the same way that they are passed to normal React components. Props are used instead of classes in CSS and set the properties dynamically.
 
-**Example**
-```js
+Example
+
 import React from "react";
 import styled, { css } from "styled-components";
 
@@ -173,7 +173,6 @@ const Button = styled.button`
 `;
 
 export default Button;
-```
 
 **More Information**
 Styled-components has detailed documentation, and the site also provides a live editor where you can try out the code. Get more information on styled-components at styled-components: Basics.

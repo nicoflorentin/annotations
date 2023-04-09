@@ -18,6 +18,8 @@ Para que funcione el type module tenes que configurar un **live server con npm**
 npm i live-server
 live-server "folder"
 
+## Export
+
 Exportar la variable "variable" desde module.js
 ```js
 export default variable
@@ -27,22 +29,20 @@ Exportar varias variables desde module.js
 ```js
 export { variable1 , variable2 }
 ```
-
+## Import
 ```js
 import { variable1 , variable2 } from './folder/module.js'
 ```
-
 ```js
 import variable from './folder/module.js'
 ```
-
 ```js
 import variable , { variable1, variable2 } from './folder/module.js'
 ```
 
 export default solo puede utilzarse una sola vez por script
 
-## Importar todo lo que hay dentro del script :
+## Importar todo lo que hay dentro de otro módulo :
 
 ```js
 import * from './module.js'

@@ -1,7 +1,8 @@
 ---
+tags: [JavaScript]
 title: '[JavaScript] JavaScript tools'
 created: '2022-11-23T18:24:01.490Z'
-modified: '2022-12-23T19:58:23.775Z'
+modified: '2022-12-23T20:10:45.177Z'
 ---
 
 # [JavaScript] JavaScript tools
