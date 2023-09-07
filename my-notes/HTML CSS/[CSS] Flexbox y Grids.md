@@ -56,7 +56,7 @@ modified: '2022-11-02T05:56:37.616Z'
 
 Se destaca por dividir una página en regiones principales, o definir la relación en términos de tamaño, posición y capas, entre partes de un control.
 
-## Propiedades del padre
+### Propiedades del padre
 
 En primer lugar, aplicas la propiedad **"display: grid"** al elemento padre.
 
@@ -88,7 +88,6 @@ Es posible crear **cuadrículas con un tamaño definido**. Para ello, sólo tien
 ó utilizar una unidad creada para ser usada en grid **( fr (fraction) )**
 Nota: también es posible utilizar otras unidades y combinarlas, como porcentajes o la palabra clave auto (que obtiene el tamaño restante).
 
-
 ```css
 .grid {
 display: grid;  
@@ -104,9 +103,9 @@ Si necesitas hacer muchas columnas y filas iguales, puedes usar lo siguiente:
 
 ```css
 .grid {
-display: grid;  
+	display: grid;  
 	grid-template-columns: repeat(12, 1fr);
-grid-template-rows: repeat(12, 1fr)
+	grid-template-rows: repeat(12, 1fr)
 }
 
 ```

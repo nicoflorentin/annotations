@@ -115,15 +115,13 @@ El tamaño default en los navegadores es de aproximadamente **16 pixels**. **Una
     width: 150px;
 }
 ```
-<<<<<<< HEAD:notes/[CSS] CSS fundamentals.md
 ```css
 .center {
     display: grid;
     place-content: center;
 }
 ```
-=======
->>>>>>> 95d1ff3b5a63f459d8228d4e5f93c1f3e2d261e2:[CSS] CSS fundamentals.md
+
 
 ## CSS RESET : 
 

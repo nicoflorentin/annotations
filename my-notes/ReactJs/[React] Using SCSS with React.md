@@ -1,18 +1,9 @@
----
-tags: [React]
-title: '[React] Using SCSS with React'
-created: '2022-02-15T20:32:05.441Z'
-modified: '2022-02-15T20:36:15.943Z'
----
-
-# [React] Using SCSS with React
-
 With the upgraded Create React App released recently, we got a lot of new tools to play with. Sass is one that I’m excited to have built in, since we used to have to make .scss files compile and write to .css files right in our folder structure. You may be concerned about using Sass in React. Isn’t it a smarter way to write styles with CSS-in-JS libraries like styled-components or aphrodite? I believe that adding Sass support to Create React App will be a big help for React beginners.
 
 Here are some steps to follow:
 
 - Let’s start by installing the Create React App. You can do that by running npm install -g create-react-app globally or using npx create-react-app to download and invoke it immediately so your installed package won’t be anywhere in your globals. You can find out more about npx here.
-- Create a new React project with create-react-app <app-name> and then change into that directory.
+- Create a new React project with create-react-app app-name and then change into that directory.
 - Install the node-sass dependency using npm install node-sass --save. This will compile your scss to css.
 - That’s it — we’re done. We can test the configuration by changing our src/App.css file to src/App.scss file and updating src/App.js to import it. Then we can try out some cool Sass/SCSS features.
 

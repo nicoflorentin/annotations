@@ -33,6 +33,7 @@ a(); // 'Hola!'
 b(); // 'Chao'
 console.log(global); // 'Hello'
 ```
+
 ### Precedencia de Operadores y Asociatividad
 
 Ahora si tuvieramos la misma precedencia entraría en juego la asociatividad, veamos un ejemplo:
@@ -190,3 +191,6 @@ queue.push(2);         // la cola es [1, 2]
 var i = queue.shift(); // la cola es [2]
 console.log(i);        // muestra 1
 ```
+
+## Contexto de ejecución
+![[Pasted image 20230411132015.png]]

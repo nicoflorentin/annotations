@@ -1,5 +1,5 @@
 
-Funcion genereadora
+Funcion generadora
 
 ![[Pasted image 20230328211154.png]]
 

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3dce9b2fc8593656",
+        "id": "cb773057e1c0b664",
         "type": "tabs",
         "children": [
           {
-            "id": "6df175d3c7ccf702",
+            "id": "69002f9a198cff8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Henry/{M4} 2 - SQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a11ff1474eb3f80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL por Chat GPT.md",
+                "file": "my-notes/ReactJs/React - React Router.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "router",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,12 +64,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "8a22939a02807233",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 226.5
   },
   "right": {
     "id": "eb30fa554dd9762d",
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL por Chat GPT.md",
+                "file": "my-notes/ReactJs/React - React Router.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL por Chat GPT.md",
+                "file": "my-notes/ReactJs/React - React Router.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL por Chat GPT.md"
+                "file": "my-notes/ReactJs/React - React Router.md"
               }
             }
           }
@@ -159,44 +155,59 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a11ff1474eb3f80",
+  "active": "69002f9a198cff8d",
   "lastOpenFiles": [
-    "{React} - React Hooks.md",
-    "json.png.md",
-    "[SoyHenry] - Prep Course.md",
-    "[React] Using SCSS with React.md",
-    "[React] Styled Components.md",
-    "[React] Rendering on React.md",
-    "[React] Curso React de Luis Cabrera YouTube.md",
-    "[React] Components Styling Options.md",
-    "[React] Apunte CoderHouse.md",
-    "[NodeJS] - NodeJs Codevolution.md",
-    "[JavaScript] Try, Catch y manejo de errores.md",
-    "[JavaScript] Object Create , Object Asign.md",
-    "[JavaScript] Map, Filter y Reduce.md",
-    "[JavaScript] Manage Modules (import - export).md",
-    "[JavaScript] JavaScript tools.md",
-    "[JavaScript] Formatear objetos (Object.entries Object.keys).md",
-    "[JavaScript] Asincronía (fetch, promises, async y await).md",
-    "[JavaScript Clase 9] Eventos.md",
-    "[JavaScript Clase 8] DOM (Document Object Model).md",
-    "[JavaScript Clase 7] Storage y JSON.md",
-    "[JavaScript Clase 6] Arrays.md",
-    "[JavaScript Clase 5] Objetos.md",
-    "[JavaScript Clase 4] Funciones.md",
-    "[JavaScript Clase 3] Ciclos e Iteraciones.md",
-    "[JavaScript Clase 2] Control de flujos.md",
-    "[JavaScript Clase 1] JavaScript.md",
-    "Pasted image 20230408185543.png",
-    "Pasted image 20230408185449.png",
-    "Pasted image 20230408180623.png",
-    "Pasted image 20230408180458.png",
-    "Pasted image 20230408180311.png",
-    "Pasted image 20230408180134.png",
-    "Pasted image 20230408175847.png",
-    "Pasted image 20230408175719.png",
-    "Pasted image 20230408175209.png",
-    "Pasted image 20230408174808.png",
+    "my-notes/Back End/{M3} 8 - REPASO M3.md",
+    "my-notes/ReactJs/{M2} - React Router (react-router-dom).md",
+    "my-notes/HTML CSS/[CSS] Bootsrap + Themes.md",
+    "my-notes/ReactJs/React - React Router.md",
+    "my-notes/ReactJs/[React] Components Styling Options.md",
+    "my-notes/ReactJs/[React] Curso React de Luis Cabrera YouTube.md",
+    "my-notes/ReactJs/{M2} - React redux.md",
+    "my-notes/ReactJs/[React] Apunte CoderHouse.md",
+    "my-notes/HTML CSS/[CSS] Flexbox y Grids.md",
+    "my-notes/Back End/{M3} 5 - Expresss.md",
+    "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
+    "my-notes/HTML CSS/{CSS} - Flexbox.md",
+    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+    "my-notes/HTML CSS/CSS Reset.md",
+    "my-notes/HTML CSS/[HTML] - HTML fundamentals.md",
+    "my-notes/HTML CSS/CSS.md",
+    "my-notes/TailwindCSS/Tailwind notes.md",
+    "my-notes/TailwindCSS",
+    "my-notes/ReactJs/{React} - React Hooks.md",
+    "my-notes/ReactJs/[React] Rendering on React.md",
+    "my-notes/JavaScript/[JavaScript] JavaScript tools.md",
+    "my-notes/JavaScript/[JavaScript Clase 9] Eventos.md",
+    "my-notes/JavaScript/[JavaScript Clase 12] JQuery, efectos y animaciones.md",
+    "my-notes/JavaScript/[JavaScript Clase 13] AJAX con jQuery.md",
+    "my-notes/JavaScript/[JavaScript] Formatear objetos (Object.entries Object.keys).md",
+    "my-notes/JavaScript/[JavaScript] Asincronía (fetch, promises, async y await).md",
+    "my-notes/JavaScript/{M1} 2 - JavaScript Henry.md",
+    "attachments/json.png",
+    "attachments/get2.png",
+    "attachments/get-post.png",
+    "attachments/get.png",
+    "Untitled",
+    "attachments/M2 React Router.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled 5.canvas",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "attachments/Pasted image 20230301115139.png",
+    "attachments/Pasted image 20230320113154.png",
+    "attachments/Pasted image 20230708015741.png",
+    "attachments/Pasted image 20230707190330.png",
+    "my-notes/Computer Science",
+    "my-notes/Git - GitHub",
+    "my-notes/Back End",
+    "my-notes/HTML CSS",
+    "my-notes/ReactJs",
+    "my-notes/JavaScript",
+    "attachments/Pasted image 20230606215339.png",
+    "my-notes",
     "Resources"
   ]
 }

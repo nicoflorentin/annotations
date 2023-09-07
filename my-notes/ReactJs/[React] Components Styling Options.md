@@ -1,12 +1,3 @@
----
-tags: [React]
-title: '[React] Components Styling Options'
-created: '2022-02-09T04:49:02.898Z'
-modified: '2022-02-09T05:55:45.683Z'
----
-
-# [React] Components Styling Options
-
 ## Inline CSS
 - Dependencies: None
 - Difficulty: Easy

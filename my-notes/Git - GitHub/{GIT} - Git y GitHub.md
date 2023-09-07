@@ -1,14 +1,19 @@
----
-tags: [Coderhouse]
-title: Git y GitHub
-created: '2022-10-04T18:32:08.564Z'
-modified: '2022-11-22T06:55:51.463Z'
----
+## Comandos
 
-# Git y GitHub
-
-## Comandos : 
-
+- **Ver ramas :** `git branch`
+- **Moverse a una rama :** `git checkout nombreDeRama`
+- **Borrar rama remota desde git local :** `git push origin --delete nombreDeRama`
+- **Hacer commit sin cambiar el codigo:** `git commit --allow-empty -m "Mensaje del commit"`
+- **Descarga los cambios del repositorio remoto sin fusionarlos con tu rama actual.** `git fetch origin`
+- Realizar un **git pull pero no crear automáticamente una confirmación** (commit) después de fusionar los cambios. Es útil si deseas revisar los cambios antes de confirmarlos manualmente: `git pull --no-commit origin main`
+- **Show the local branches you’ve created for your project :** `git branch`
+- **Mostrar todas las ramas incluidas las remotas : `git branch -a`
+- **Delete a local branch:** `git branch -d branch-name`
+- **Forzar la actualización remota:** `git push --force`
+- **To push the branch to the remote server:** `git push -u origin <branchName>`
+- **Actualizar ramas remotas en el repositorio local:** `git fetch --prune`
+- **Force delete untracked files:** `git clean -df`
+- **Delete untracked files:** ``git clean -d``
 ### Configurar nombre y email : 
 
 git config --global user.name "John Doe"
@@ -147,10 +152,10 @@ state without impacting any branches by performing another checkout.
 If you want to create a new branch to retain commits you create, you may
 do so (now or later) by using -b with the checkout command again. Example:
 
-git checkout -b <new-branch-name>
+git checkout -b new-branch-name
 
 ### Git merge
-Habiendo trabajado en diferentes ramas deberíamos de mezclarlas. Lo primero que debemos hacer para mezclar ramas es pararnos sobre la rama master y desde allí usar el comando git merge [rama a fundir con el master]
+Habiendo trabajado en diferentes ramas deberíamos de mezclarlas. Lo primero que debemos hacer para mezclar ramas es pararnos sobre la rama master y desde allí usar el comando git merge {rama a fundir con el master}
 john@MyShopSolutions MINGW64 /c/git/nuevo_repo (master)
 $ git merge nueva-image
 Updating 6d6c28c..fa52a3c
@@ -181,9 +186,43 @@ $ git log --oneline --graph
 * 95bd15b Nuevos cambios
 * 1734915 Nuevo archivo
 
+## Apunte de GIT henry :
 
+### Clone
 
+Un "clone" (clon) en Git se refiere a la acción de crear una copia exacta de un repositorio remoto en tu máquina local. Puedes clonar un repositorio utilizando el comando `git clone` seguido de la URL del repositorio remoto. Al clonar un repositorio, obtienes una copia completa del historial de commits, ramas y archivos en tu propia máquina. **Esto te permite trabajar en el repositorio localmente y realizar cambios sin afectar el repositorio remoto. Además, puedes sincronizar tu repositorio clonado con el repositorio remoto para obtener actualizaciones utilizando comandos como** `**git pull**` **y** `**git push.**`
 
+### Pull y Push
 
+1. **"git pull":** Este comando se utiliza para obtener y fusionar los cambios más recientes desde un repositorio remoto en tu repositorio local. Básicamente, **realiza dos acciones en una sola operación: primero, descarga las actualizaciones del repositorio remoto utilizando "git fetch" y luego fusiona esos cambios en tu rama actual.** Es importante destacar que si tienes cambios locales sin confirmar, Git intentará fusionar los cambios remotos con tus cambios locales. En caso de que haya conflictos, deberás resolverlos manualmente. El comando "git pull" se utiliza comúnmente para mantener tu repositorio local actualizado con los últimos cambios del repositorio remoto.
+2. **"git push":** Este comando se utiliza para enviar tus cambios locales a un repositorio remoto. **Cuando realizas cambios en tu repositorio local y estás listo para compartirlos con otros colaboradores o actualizar el repositorio remoto, utilizas "git push". Git enviará tus cambios al repositorio remoto correspondiente y los integrará en la rama apropiada.** Es importante destacar que debes tener permisos de escritura en el repositorio remoto para poder utilizar "git push". Si otros colaboradores han realizado cambios en el repositorio remoto desde la última vez que hiciste "git pull" o "git clone", es posible que se produzcan conflictos, y deberás resolverlos antes de que Git pueda realizar el "push" correctamente.
 
+**En resumen,**
+**"git pull" se utiliza para obtener y fusionar los cambios remotos en tu repositorio local**
+**"git push" se utiliza para enviar tus cambios locales al repositorio remoto.**
 
+## Flujo de trabajo con Git (Git Flow)
+
+### Paso a paso para hacer un pull request y subir un cambio a nuestra rama principal (main).
+
+1. **git checkout main:** nos posicionamos en la rama main.
+2. **git branch:** vemos todas las ramas creadas (opcional).
+3. **git pull:** nos traemos todos los últimos cambios que hayan sido mergeados y aprobados en main. Sobre este comando, también tenemos la posibilidad de usar **git pull origin nombreRama** para traernos los cambios de la rama especificada.
+4. **git checkout -b nombreRama:** estando posicionados en main, creamos una nueva rama. Es importante crear una nueva rama para cada nueva feature/fix así nos evitamos conflictos.
+5. Realizamos los cambios estando posicionados en la rama previamente creada.
+6. **git status:** vemos que archivos fueron modificados y están listos para ser agregados a un nuevo commit.
+7. **git add nombreDeArchivoModificado:** añadimos el archivo indicado al nuevo commit. En este caso, si tenemos más de un archivo modificado y queremos añadir a todos, podemos hacer git add . con el punto al final para poder añadirlos todos juntos y no ir archivo por archivo.
+8. **git push -u origin nombreRamaDeTrabajo:** subimos los cambios a la rama remota del repositorio. Por ejemplo, si mi rama creada en el paso 4 de esta lista se llamaba feature/login en este paso el comando debería ser **git push -u origin feature/login.**
+9. Una vez realizados los pasos anteriores, se abre la posibilidad de hacer un pull request. Para ésto, debemos ir al repositorio en GitHub y hacer click en el botón de color verde que dice **“CREATE PULL REQUEST”.**
+10. Uno (o varios) de los colaboradores del repositorio debe aceptar los cambios.
+11. Una vez que los cambios son aceptados, hacer click en el botón **“CONFIRM SQUASH AND MERGE”.** Ésto genera que nuestros cambios ahora se vean reflejados en la rama main.
+12. Si queremos, ahora podemos **borrar la rama creada para ésta tarea en particular.**
+13. Para realizar una nueva tarea, el ciclo se repite. Aclaración: tener en cuenta que el orden de los comandos puede verse afectado dependiendo de lo que se quiera realizar.
+
+## Trabajo en equipo
+
+1. **Agregar colaboradores** desde al configuracion del repositorio.
+2. **Proteger las ramas** con reglas de proteccion desde la configuracion de Branches protection rules.
+3. **Pushear** los cambios a la nueva rama.
+4. Generar un **pull request.**
+5. Una vez aceptado se puede hacer **merge** a la rama principal.

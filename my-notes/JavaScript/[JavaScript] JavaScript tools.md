@@ -27,7 +27,7 @@ var observer = new IntersectionObserver(function(entries) {
 observer.observe(document.querySelector("#main-container"));
 ```
 
-## Cuando un elemento es totalmente visible en la pantalla (**threshold [1]**):
+## Es totalmente visible en la pantalla (**threshold [1]**):
 If we want to know when element becomes fully visible in screen :
 ```js
 var observer = new IntersectionObserver(function(entries) {

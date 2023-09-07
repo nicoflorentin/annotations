@@ -1,13 +1,4 @@
----
-tags: [Coderhouse, React]
-title: '[React] Apunte CoderHouse'
-created: '2022-05-16T21:29:13.984Z'
-modified: '2022-09-24T17:15:55.126Z'
----
-
-# [React] Apunte CoderHouse
-
-## CLASE 1
+    ## CLASE 1
 
 JAVASCRIPT : variables + tipos de datos + operadores + flujos de ejecución 
 API web : https://developer.mozilla.org/en-US/docs/Web/API

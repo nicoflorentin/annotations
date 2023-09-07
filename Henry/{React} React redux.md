@@ -1,4 +1,0 @@
-
-## Instalación :
-
-## Configuración : 

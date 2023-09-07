@@ -1,4 +1,3 @@
-
 ## Comandos de SQL más comunes.
 
 1.  **SELECT**: 

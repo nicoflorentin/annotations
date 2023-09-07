@@ -56,9 +56,15 @@ con COUNT cuenta la cantidad que agrupa y cuenta lo que pongas en el campo COUNT
 une dos tablas
 ![[Pasted image 20230408185449.png]]
 
+##### Renombrar campos :
 ![[Pasted image 20230408185543.png]]
+![[Pasted image 20230409134355.png]]
 
+#### INNER JOIN : 
+![[Pasted image 20230409135138.png]]
 
+#### Sub Query
+![[Pasted image 20230409150634.png]]
 
 
 #### Create
@@ -80,3 +86,7 @@ primary key tiene not null y unique al mismo tiempo
 #### foreign key to primary key :
 ![[Pasted image 20230408174622.png]]
 
+
+### Crear un atributo y relacionarlo con la tabla intermedia :
+
+![[Pasted image 20230418160829.png]]
