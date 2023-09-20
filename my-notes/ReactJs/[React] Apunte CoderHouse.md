@@ -1,4 +1,4 @@
-    ## CLASE 1
+## CLASE 1
 
 JAVASCRIPT : variables + tipos de datos + operadores + flujos de ejecución 
 API web : https://developer.mozilla.org/en-US/docs/Web/API

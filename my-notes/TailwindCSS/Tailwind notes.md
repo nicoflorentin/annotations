@@ -3,7 +3,7 @@
 
 By default you can't. However I use these simple lines in `tailwind.config.js` to give me `child` and `child-hover` options.
 
-```xml
+```js
 plugins: [
     function ({ addVariant }) {
         addVariant('child', '& > *');
