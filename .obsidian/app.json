@@ -1,5 +1,11 @@
 {
   "attachmentFolderPath": "attachments",
   "promptDelete": true,
-  "alwaysUpdateLinks": false
+  "alwaysUpdateLinks": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 100
+  }
 }

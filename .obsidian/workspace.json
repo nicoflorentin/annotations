@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ba6b1c39b04abfca",
+        "id": "6305ef0ef06ac9d1",
         "type": "tabs",
         "children": [
           {
-            "id": "b066f2689e8c9c9d",
+            "id": "432b08e325d1e94f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/ReactJs/React - Higher Order Components.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "debf29d9f5ee2356",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "my-notes/ReactJs/React - 12 Common Mistakes.md",
+                "file": "my-notes/Back End/Sequelize Documentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "error",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 311.5
   },
   "right": {
     "id": "eb30fa554dd9762d",
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-notes/ReactJs/React - Higher Order Components.md",
+                "file": "my-notes/Back End/Sequelize Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my-notes/ReactJs/React - Higher Order Components.md",
+                "file": "my-notes/Back End/Sequelize Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my-notes/ReactJs/React - Higher Order Components.md"
+                "file": "my-notes/Back End/Sequelize Documentation.md"
               }
             }
           },
@@ -176,35 +164,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b066f2689e8c9c9d",
+  "active": "432b08e325d1e94f",
   "lastOpenFiles": [
-    "my-notes/ReactJs/React - 12 Common Mistakes.md",
-    "my-notes/ReactJs/React - Higher Order Components.md",
-    "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
-    "my-notes/ReactJs/{M2} - React Router (react-router-dom).md",
-    "my-notes/ReactJs/[React] Apunte CoderHouse.md",
-    "my-notes/ReactJs/React - React Router.md",
-    "my-notes/TailwindCSS/Tailwind notes.md",
-    "Untitled",
-    "2023-09-07.md",
-    "my-notes/ReactJs/{React} - React Hooks.md",
-    "my-notes/ReactJs/{React} - Custom Hooks.md",
-    "my-notes/ReactJs/{M2} - React redux.md",
-    "my-notes/ReactJs/[React] Using SCSS with React.md",
-    "my-notes/ReactJs/[React] Styled Components.md",
-    "my-notes/ReactJs/[React] Rendering on React.md",
-    "my-notes/ReactJs/[React] Curso React de Luis Cabrera YouTube.md",
-    "my-notes/ReactJs/[React] Components Styling Options.md",
-    "my-notes/JavaScript/{M2} - ES6.md",
-    "my-notes/JavaScript/{M1} 2 - JavaScript Henry.md",
-    "my-notes/JavaScript/{M0} - Prep Course.md",
-    "my-notes/JavaScript/{JavaScript} - Parámetros nombrados.md",
-    "my-notes/JavaScript/[SoyHenry] - Prep Course.md",
     "my-notes/JavaScript/[JavaScript] Try, Catch y manejo de errores.md",
-    "my-notes/JavaScript/[JavaScript] Object Create , Object Asign.md",
-    "my-notes/JavaScript/[JavaScript] Map, Filter y Reduce.md",
-    "my-notes/JavaScript/[JavaScript] Manage Modules (import - export).md",
-    "my-notes/JavaScript/[JavaScript] JavaScript tools.md",
+    "my-notes/HTML CSS/[CSS] Flexbox y Grids.md",
+    "my-notes/Back End/Sequelize Documentation.md",
+    "my-notes/JavaScript/[JavaScript Clase 2] Control de flujos.md",
+    "my-notes/Computer Science/Teoría de programación y terminología.md",
+    "my-notes/ReactJs/{React} - React Hooks.md",
+    "my-notes/Back End/[NodeJS] - NodeJs Codevolution.md",
+    "Q&A/Q.md",
+    "my-notes/Back End/{M3} 1 - Node Js.md",
+    "my-notes/Back End/{M4} 2 - SQL.md",
+    "my-notes/Back End/{M3} 8 - REPASO M3.md",
+    "my-notes/Back End/{M3} 6 - Async Await and Generators.md",
+    "my-notes/Back End/{M3} 3 - Promises avanzadas.md",
+    "my-notes/Back End/{M3} 5 - Expresss.md",
+    "my-notes/Back End/{M4} 1 - DBMS.md",
+    "my-notes/Back End/{M4} 3 - ORM (Object Relational Mapping).md",
+    "my-notes/Back End/Variables de entorno.md",
+    "my-notes/Back End/SQL por Chat GPT.md",
+    "my-notes/HTML CSS/[CSS] Bootsrap + Themes.md",
+    "my-notes/[Bundle] - ViteJs.md",
+    "attachments/Pasted image 20231011205945.png",
+    "attachments/Pasted image 20231011164403.png",
+    "Q&A",
+    "my-notes/ReactJs/React - Clean Architecture - Estructura de un proyecto de react.md",
+    "attachments/Pasted image 20231003124513.png",
+    "attachments/Pasted image 20231003123352.png",
+    "attachments/Pasted image 20231003122757.png",
+    "attachments/Pasted image 20231003121023.png",
+    "attachments/Pasted image 20231003120747.png",
+    "my-notes/TailwindCSS/Tailwind notes.md",
+    "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
+    "attachments/1695704148777.pdf",
+    "my-notes/ReactJs/React - Higher Order Components.md",
+    "my-notes/ReactJs/React - React Router.md",
+    "my-notes/ReactJs/[React] Components Styling Options.md",
     "my-notes/TailwindCSS",
     "my-notes/ReactJs",
     "my-notes/JavaScript",
@@ -216,14 +212,6 @@
     "attachments/Pasted image 20230708015741.png",
     "attachments/Pasted image 20230707190330.png",
     "attachments/Pasted image 20230606215339.png",
-    "attachments/Pasted image 20230418160829.png",
-    "attachments/Pasted image 20230412150156.png",
-    "attachments/Pasted image 20230411132015.png",
-    "attachments/Pasted image 20230409150634.png",
-    "attachments/Pasted image 20230409135138.png",
-    "attachments/Pasted image 20230409134355.png",
-    "attachments/Pasted image 20230408185543.png",
-    "notes",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Untitled 5.canvas",

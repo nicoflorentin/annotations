@@ -192,3 +192,5 @@ server.post('/', function (req, res) {
 Para finalizar si queremos acceder a los parámetros de una consulta utilizaremos `req.query`. Por ejemplo, supongamos que se desea buscar 'toni' realizando un `GET /search?name=toni`, entonces lo que haremos será acceder al parámetro nombre de la query con `req.query.name`.
 
 ![[Pasted image 20230404205250.png]]
+
+![[1695704148777.pdf]]

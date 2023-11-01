@@ -1,8 +1,9 @@
 ---
-tags: [JavaScript]
-title: '[JavaScript] Try, Catch y manejo de errores'
-created: '2022-09-29T04:04:57.860Z'
-modified: '2022-12-21T05:28:22.713Z'
+tags:
+  - JavaScript
+title: "[JavaScript] Try, Catch y manejo de errores"
+created: 2022-09-29T04:04:57.860Z
+modified: 2022-12-21T05:28:22.713Z
 ---
 
 # [JavaScript] Try, Catch y manejo de errores
