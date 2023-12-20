@@ -482,5 +482,5 @@ await newOdontograma.addObservaciones(observacion)
 ```js
 //model.js
 Odontograma.hasMany(Observacion, { foreignKey: "odontogramaId", as: 'observaciones' })
-Observacion.belongsTo(Odontograma, { foreignKey: "odontogramaId", as: 'observaciones' })
+Observacion.belongsTo(Odontograma, { foreignKey: "odontogramaId", as: 'odontograma' })
 ```

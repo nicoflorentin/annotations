@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 200
   },
   "right": {
     "id": "eb30fa554dd9762d",
@@ -166,9 +166,12 @@
   },
   "active": "432b08e325d1e94f",
   "lastOpenFiles": [
+    "my-notes/React Native/Beginning notes.md",
+    "my-notes/NVM - Node version manager.md",
+    "my-notes/Back End/Sequelize Documentation.md",
+    "my-notes/React Native",
     "my-notes/JavaScript/[JavaScript] Try, Catch y manejo de errores.md",
     "my-notes/HTML CSS/[CSS] Flexbox y Grids.md",
-    "my-notes/Back End/Sequelize Documentation.md",
     "my-notes/JavaScript/[JavaScript Clase 2] Control de flujos.md",
     "my-notes/Computer Science/Teoría de programación y terminología.md",
     "my-notes/ReactJs/{React} - React Hooks.md",
@@ -199,8 +202,6 @@
     "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
     "attachments/1695704148777.pdf",
     "my-notes/ReactJs/React - Higher Order Components.md",
-    "my-notes/ReactJs/React - React Router.md",
-    "my-notes/ReactJs/[React] Components Styling Options.md",
     "my-notes/TailwindCSS",
     "my-notes/ReactJs",
     "my-notes/JavaScript",
@@ -208,7 +209,6 @@
     "my-notes/Git - GitHub",
     "my-notes/Computer Science",
     "my-notes/Back End",
-    "my-notes",
     "attachments/Pasted image 20230708015741.png",
     "attachments/Pasted image 20230707190330.png",
     "attachments/Pasted image 20230606215339.png",
