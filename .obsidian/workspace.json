@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6305ef0ef06ac9d1",
+        "id": "4c6057f26720bd55",
         "type": "tabs",
         "children": [
           {
-            "id": "432b08e325d1e94f",
+            "id": "7e6c0e826e5ff0f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/Back End/Sequelize Documentation.md",
+                "file": "my-notes/TailwindCSS/Tailwind notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "error",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 341.5
   },
   "right": {
     "id": "eb30fa554dd9762d",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-notes/Back End/Sequelize Documentation.md",
+                "file": "my-notes/TailwindCSS/Tailwind notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my-notes/Back End/Sequelize Documentation.md",
+                "file": "my-notes/TailwindCSS/Tailwind notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my-notes/Back End/Sequelize Documentation.md"
+                "file": "my-notes/TailwindCSS/Tailwind notes.md"
               }
             }
           },
@@ -143,7 +143,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -164,44 +166,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "432b08e325d1e94f",
+  "active": "7e6c0e826e5ff0f9",
   "lastOpenFiles": [
-    "my-notes/React Native/Beginning notes.md",
-    "my-notes/NVM - Node version manager.md",
-    "my-notes/Back End/Sequelize Documentation.md",
-    "my-notes/React Native",
-    "my-notes/JavaScript/[JavaScript] Try, Catch y manejo de errores.md",
-    "my-notes/HTML CSS/[CSS] Flexbox y Grids.md",
+    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+    "my-notes/TailwindCSS/Tailwind notes.md",
     "my-notes/JavaScript/[JavaScript Clase 2] Control de flujos.md",
-    "my-notes/Computer Science/Teoría de programación y terminología.md",
+    "my-notes/JavaScript/[JavaScript Clase 1] JavaScript.md",
+    "my-notes/JavaScript/[JavaScript] Manage Modules (import - export).md",
+    "my-notes/JavaScript/[SoyHenry] - Prep Course.md",
+    "my-notes/JavaScript/{JavaScript} - Parámetros nombrados.md",
+    "my-notes/JavaScript/{M0} - Prep Course.md",
+    "my-notes/JavaScript/{M1} 2 - JavaScript Henry.md",
+    "my-notes/JavaScript/{M2} - ES6.md",
+    "my-notes/React Native/Beginning notes.md",
+    "my-notes/ReactJs/Redux Toolkit.md",
+    "my-notes/ReactJs/React - React Router.md",
+    "my-notes/ReactJs/React - Higher Order Components.md",
+    "my-notes/ReactJs/React - Estructura de un proyecto de react -  Clean Architecture.md",
+    "my-notes/ReactJs/React - 12 Common Mistakes.md",
+    "my-notes/ReactJs/Client and Server States.md",
     "my-notes/ReactJs/{React} - React Hooks.md",
-    "my-notes/Back End/[NodeJS] - NodeJs Codevolution.md",
-    "Q&A/Q.md",
-    "my-notes/Back End/{M3} 1 - Node Js.md",
-    "my-notes/Back End/{M4} 2 - SQL.md",
-    "my-notes/Back End/{M3} 8 - REPASO M3.md",
-    "my-notes/Back End/{M3} 6 - Async Await and Generators.md",
-    "my-notes/Back End/{M3} 3 - Promises avanzadas.md",
-    "my-notes/Back End/{M3} 5 - Expresss.md",
-    "my-notes/Back End/{M4} 1 - DBMS.md",
-    "my-notes/Back End/{M4} 3 - ORM (Object Relational Mapping).md",
-    "my-notes/Back End/Variables de entorno.md",
-    "my-notes/Back End/SQL por Chat GPT.md",
-    "my-notes/HTML CSS/[CSS] Bootsrap + Themes.md",
-    "my-notes/[Bundle] - ViteJs.md",
+    "my-notes/ReactJs/{React} - Custom Hooks.md",
+    "my-notes/ReactJs/[React] Components Styling Options.md",
+    "my-notes/ReactJs/{M2} - React redux.md",
+    "Untitled 1.md",
+    "my-notes/Computer Science/Teoría de programación y terminología.md",
+    "my-notes/HTML CSS/{CSS} - Flexbox.md",
+    "my-notes/HTML CSS/CSS Reset.md",
+    "my-notes/HTML CSS/[HTML] - HTML fundamentals.md",
+    "my-notes/React Native",
     "attachments/Pasted image 20231011205945.png",
     "attachments/Pasted image 20231011164403.png",
     "Q&A",
-    "my-notes/ReactJs/React - Clean Architecture - Estructura de un proyecto de react.md",
     "attachments/Pasted image 20231003124513.png",
     "attachments/Pasted image 20231003123352.png",
     "attachments/Pasted image 20231003122757.png",
     "attachments/Pasted image 20231003121023.png",
     "attachments/Pasted image 20231003120747.png",
-    "my-notes/TailwindCSS/Tailwind notes.md",
-    "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
     "attachments/1695704148777.pdf",
-    "my-notes/ReactJs/React - Higher Order Components.md",
     "my-notes/TailwindCSS",
     "my-notes/ReactJs",
     "my-notes/JavaScript",

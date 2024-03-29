@@ -133,9 +133,16 @@ El tamaño default en los navegadores es de aproximadamente **16 pixels**. **Una
 }
 ```
 
-## CSS priorities : 
+## CSS Specificity
 
-Value defined as Important **>** Inline **>** id nesting **>** id **>** class nesting **>** class **>** tag nesting **>** tag.
+1. **IMPORTANT**
+2. **INLINE**
+3. **ID NESTING**
+4. **ID**
+5. **CLASS NESTING**
+6. **CLASS**
+7. **TAG NESTING**
+8. **TAG**
 
 ## ScrollBar style : 
 ```css
@@ -158,7 +165,6 @@ html::-webkit-scrollbar-track {
 ```
 
 ## Prevent Dark Mode : 
-
 ```html
 <meta name="color-scheme" content="light only">
 <meta name="color-scheme" content="light dark">
@@ -200,5 +206,25 @@ or
 }
 ```
 ``
-=======
->>>>>>> 95d1ff3b5a63f459d8228d4e5f93c1f3e2d261e2:[CSS] CSS fundamentals.md
+## White Space
+The `white-space` property specifies how white-space inside an element is handled
+```css
+.class {
+white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit;
+}
+```
+
+## ScrollBar and Layout
+Evitar que cuando aparezca la scrollbar el layout se desplace a la izquierda
+```css
+/* tailwind class : className="w-screen" */
+.container {
+	width: 100vh;
+}
+
+/* alternative */
+.container {
+	position: relative; /* sin esta tambien funciona */
+	padding-left: calc(100vw - 100%);
+}
+```

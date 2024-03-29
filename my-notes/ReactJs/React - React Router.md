@@ -14,10 +14,10 @@ import { Route, Routes } from "react-router-dom"
 </Route>
 ```
 
-Definiendo el hijo de UserDashboard :
+## Definiendo el hijo de UserDashboard :
 ```jsx
 // UserDashboard.jsx
-// EL componente Outlet define donde se va a renderizar el componente hijo
+// El componente Outlet define donde se va a renderizar el componente hijo
 import { Outlet } from "react-router-dom"
 
 const UserDashboard = () => {
@@ -162,7 +162,6 @@ function App() {
 		  }
 		/>
 	</Routes>
-
   )
 }
 export default App
@@ -297,7 +296,7 @@ export const Navbar = () => {
   )
 }
 ```
-##### Profile.jsx
+#### Profile.jsx
 ```jsx
 //Profile.jsx
 import { useNavigate } from 'react-router-dom'
@@ -328,8 +327,7 @@ export const RequireAuth = ({ children }) => {
   const location = useLocation()
   const auth = useAuth()
   if (!auth.user) {
-  // El prop `state` se utiliza para pasar datos adicionales a la ruta de destino. En este caso, se 
-  // pasa un objeto que contiene la propiedad `path`, que es la ruta actual (`location.pathname`) 
+  // El prop `state` se utiliza para pasar datos adicionales a la ruta de destino. En este caso, se pasa un objeto que contiene la propiedad `path`, que es la ruta actual (`location.pathname`) 
   // donde se encontraba el usuario antes de ser redirigido a la página de inicio de sesión.
     return <Navigate to='/login' state={{ path: location.pathname }} />
   }
