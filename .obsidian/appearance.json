@@ -2,5 +2,7 @@
   "baseFontSize": 15,
   "accentColor": "",
   "theme": "system",
-  "textFontFamily": "Arial,Inter"
+  "textFontFamily": "Arial,Inter",
+  "showViewHeader": true,
+  "nativeMenus": true
 }

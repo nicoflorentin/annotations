@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/TailwindCSS/Tailwind notes.md",
+                "file": "my-notes/Typescript/Typescript first approach.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 350.5
   },
   "right": {
     "id": "eb30fa554dd9762d",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-notes/TailwindCSS/Tailwind notes.md",
+                "file": "my-notes/Typescript/Typescript first approach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my-notes/TailwindCSS/Tailwind notes.md",
+                "file": "my-notes/Typescript/Typescript first approach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my-notes/TailwindCSS/Tailwind notes.md"
+                "file": "my-notes/Typescript/Typescript first approach.md"
               }
             }
           },
@@ -158,51 +158,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
   "active": "7e6c0e826e5ff0f9",
   "lastOpenFiles": [
-    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+    "my-notes/React Native/React - React Native (Codevolution).md",
+    "my-notes/React Native/React - React Native (Javascript Mastery).md",
+    "my-notes/ReactJs/React - Estructura de un proyecto de react -  Clean Architecture.md",
+    "my-notes/React Native/Beginning notes.md",
     "my-notes/TailwindCSS/Tailwind notes.md",
+    "my-notes/Typescript/Typescript first approach.md",
+    "attachments/Pasted image 20240527131118.png",
+    "my-notes/Typescript",
+    "my-notes/Sin título.md",
+    "attachments/Pasted image 20240510012342.png",
+    "attachments/Pasted image 20240510011824.png",
+    "attachments/Pasted image 20240510011105.png",
+    "attachments/Pasted image 20240510010840.png",
+    "attachments/Pasted image 20240510010809.png",
+    "attachments/Pasted image 20240510010540.png",
+    "attachments/Pasted image 20240510010523.png",
+    "attachments/Pasted image 20240510005122.png",
+    "attachments/Pasted image 20240510004918.png",
+    "Sin título.md",
+    "my-notes/ReactJs/React - React Router.md",
+    "my-notes/ReactJs/{M2} - React Router (react-router-dom).md",
+    "my-notes/ReactJs/React - React 19.md",
+    "my-notes/ReactJs/React Query.md",
+    "my-notes/ReactJs/Redux Toolkit.md",
+    "my-notes/ReactJs/[React] Rendering on React.md",
+    "my-notes/JavaScript/TypeScript.md",
+    "my-notes/HTML CSS/{ CSS } - New Features.md",
+    "my-notes/HTML CSS/CSS Reset.md",
+    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+    "my-notes/HTML CSS/CSS Resources.md",
     "my-notes/JavaScript/[JavaScript Clase 2] Control de flujos.md",
     "my-notes/JavaScript/[JavaScript Clase 1] JavaScript.md",
     "my-notes/JavaScript/[JavaScript] Manage Modules (import - export).md",
     "my-notes/JavaScript/[SoyHenry] - Prep Course.md",
     "my-notes/JavaScript/{JavaScript} - Parámetros nombrados.md",
     "my-notes/JavaScript/{M0} - Prep Course.md",
-    "my-notes/JavaScript/{M1} 2 - JavaScript Henry.md",
-    "my-notes/JavaScript/{M2} - ES6.md",
-    "my-notes/React Native/Beginning notes.md",
-    "my-notes/ReactJs/Redux Toolkit.md",
-    "my-notes/ReactJs/React - React Router.md",
-    "my-notes/ReactJs/React - Higher Order Components.md",
-    "my-notes/ReactJs/React - Estructura de un proyecto de react -  Clean Architecture.md",
-    "my-notes/ReactJs/React - 12 Common Mistakes.md",
-    "my-notes/ReactJs/Client and Server States.md",
-    "my-notes/ReactJs/{React} - React Hooks.md",
-    "my-notes/ReactJs/{React} - Custom Hooks.md",
-    "my-notes/ReactJs/[React] Components Styling Options.md",
-    "my-notes/ReactJs/{M2} - React redux.md",
-    "Untitled 1.md",
-    "my-notes/Computer Science/Teoría de programación y terminología.md",
-    "my-notes/HTML CSS/{CSS} - Flexbox.md",
-    "my-notes/HTML CSS/CSS Reset.md",
-    "my-notes/HTML CSS/[HTML] - HTML fundamentals.md",
     "my-notes/React Native",
-    "attachments/Pasted image 20231011205945.png",
-    "attachments/Pasted image 20231011164403.png",
     "Q&A",
-    "attachments/Pasted image 20231003124513.png",
-    "attachments/Pasted image 20231003123352.png",
-    "attachments/Pasted image 20231003122757.png",
-    "attachments/Pasted image 20231003121023.png",
-    "attachments/Pasted image 20231003120747.png",
     "attachments/1695704148777.pdf",
     "my-notes/TailwindCSS",
     "my-notes/ReactJs",
@@ -210,10 +213,6 @@
     "my-notes/HTML CSS",
     "my-notes/Git - GitHub",
     "my-notes/Computer Science",
-    "my-notes/Back End",
-    "attachments/Pasted image 20230708015741.png",
-    "attachments/Pasted image 20230707190330.png",
-    "attachments/Pasted image 20230606215339.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Untitled 5.canvas",

@@ -67,3 +67,26 @@ export default {
   src: url("/src/assets/fonts/RubikMonoOne-Regular.ttf");
 }
 ```
+
+### Hide Scrollbar
+https://dev.to/derick1530/how-to-create-scrollable-element-in-tailwind-without-a-scrollbar-4mbd
+
+```js
+//global index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// add the code bellow
+@layer utilities {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+  }
+```
