@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/Typescript/Typescript first approach.md",
+                "file": "my-notes/Unsorted/Video Edition.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-notes/Typescript/Typescript first approach.md",
+                "file": "my-notes/Unsorted/Video Edition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my-notes/Typescript/Typescript first approach.md",
+                "file": "my-notes/Unsorted/Video Edition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my-notes/Typescript/Typescript first approach.md"
+                "file": "my-notes/Unsorted/Video Edition.md"
               }
             }
           },
@@ -158,22 +158,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "7e6c0e826e5ff0f9",
   "lastOpenFiles": [
+    "my-notes/ReactJs/React Query.md",
+    "my-notes/Unsorted/Video Edition.md",
+    "my-notes/Unsorted",
+    "my-notes/TailwindCSS/Tailwind notes.md",
+    "my-notes/Typescript/Typescript first approach.md",
+    "attachments/Pasted image 20230301130515.png",
+    "Sin título.md",
+    "Q&A/Q.md",
     "my-notes/React Native/React - React Native (Codevolution).md",
     "my-notes/React Native/React - React Native (Javascript Mastery).md",
     "my-notes/ReactJs/React - Estructura de un proyecto de react -  Clean Architecture.md",
     "my-notes/React Native/Beginning notes.md",
-    "my-notes/TailwindCSS/Tailwind notes.md",
-    "my-notes/Typescript/Typescript first approach.md",
     "attachments/Pasted image 20240527131118.png",
     "my-notes/Typescript",
     "my-notes/Sin título.md",
@@ -185,12 +191,9 @@
     "attachments/Pasted image 20240510010540.png",
     "attachments/Pasted image 20240510010523.png",
     "attachments/Pasted image 20240510005122.png",
-    "attachments/Pasted image 20240510004918.png",
-    "Sin título.md",
     "my-notes/ReactJs/React - React Router.md",
     "my-notes/ReactJs/{M2} - React Router (react-router-dom).md",
     "my-notes/ReactJs/React - React 19.md",
-    "my-notes/ReactJs/React Query.md",
     "my-notes/ReactJs/Redux Toolkit.md",
     "my-notes/ReactJs/[React] Rendering on React.md",
     "my-notes/JavaScript/TypeScript.md",
@@ -203,7 +206,6 @@
     "my-notes/JavaScript/[JavaScript] Manage Modules (import - export).md",
     "my-notes/JavaScript/[SoyHenry] - Prep Course.md",
     "my-notes/JavaScript/{JavaScript} - Parámetros nombrados.md",
-    "my-notes/JavaScript/{M0} - Prep Course.md",
     "my-notes/React Native",
     "Q&A",
     "attachments/1695704148777.pdf",
@@ -212,7 +214,6 @@
     "my-notes/JavaScript",
     "my-notes/HTML CSS",
     "my-notes/Git - GitHub",
-    "my-notes/Computer Science",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Untitled 5.canvas",
