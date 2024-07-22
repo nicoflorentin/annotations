@@ -12,8 +12,9 @@
 - **Forzar la actualización remota:** `git push --force`
 - **To push the branch to the remote server:** `git push -u origin <branchName>`
 - **Actualizar ramas remotas en el repositorio local:** `git fetch --prune`
-- **Force delete untracked files:** `git clean -df`
-- **Delete untracked files:** ``git clean -d``
+- **Delete untracked files and directories:** `git clean -df`
+- **Delete untracked directories:** ``git clean -d``
+- **Delete untracked files:** ``git clean -f``
 ### Configurar nombre y email : 
 
 git config --global user.name "John Doe"

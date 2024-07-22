@@ -157,7 +157,7 @@ React Native renders the corresponding components related to the current operati
 
 ## LISTS
 ![[Pasted image 20240507031649.png]]
-note recommended
+not recommended
 ![[Pasted image 20240507032120.png]]
 
 ## FLATLIST
