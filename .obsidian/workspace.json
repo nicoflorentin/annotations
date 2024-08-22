@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "373717248bdc675c",
+        "id": "3d680fa25b2fcaa6",
         "type": "tabs",
         "children": [
           {
-            "id": "39e55bd0f5fcfc64",
+            "id": "03aabd5cddd58c1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/React Native/React Native - Blip.md",
+                "file": "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-notes/React Native/React Native - Blip.md",
+                "file": "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my-notes/React Native/React Native - Blip.md",
+                "file": "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my-notes/React Native/React Native - Blip.md"
+                "file": "my-notes/HTML CSS/[CSS] CSS fundamentals.md"
               }
             }
           },
@@ -166,15 +166,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e72bb5fe6c15690e",
+  "active": "03aabd5cddd58c1d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20240821230022.png",
+    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+    "my-notes/HTML CSS/{ CSS } - New Features.md",
+    "my-notes/React Native/React Native - Blip.md",
     "my-notes/ReactJs/Lazy loading.md",
     "my-notes/Unsorted/[Bundle] - ViteJs.md",
     "my-notes/Unsorted/Desarrollo mobile en 2024.md",
     "my-notes/Unsorted/NVM - Node version manager.md",
     "my-notes/Unsorted/Video Edition.md",
     "my-notes/BlipConnection/BlipConnection.md",
-    "my-notes/React Native/React Native - Blip.md",
     "PC Hardware.md",
     "my-notes/BlipConnection",
     "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
@@ -202,9 +205,6 @@
     "my-notes/ReactJs/{M2} - React Router (react-router-dom).md",
     "my-notes/ReactJs/React - Estructura de un proyecto de react -  Clean Architecture.md",
     "my-notes/ReactJs/React - 12 Common Mistakes.md",
-    "my-notes/ReactJs/Client and Server States.md",
-    "my-notes/ReactJs/{React} - Custom Hooks.md",
-    "my-notes/ReactJs/[React] Styled Components.md",
     "my-notes/Unsorted",
     "my-notes/Typescript",
     "my-notes/React Native",

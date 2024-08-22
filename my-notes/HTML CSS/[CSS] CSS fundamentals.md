@@ -228,3 +228,35 @@ Evitar que cuando aparezca la scrollbar el layout se desplace a la izquierda
 	padding-left: calc(100vw - 100%);
 }
 ```
+
+## Flexbox shortcut
+### Comparación
+
+- **Tamaño Base:**
+    
+    - **`flex: 1 1 0`**: El tamaño base es `0`. El elemento no tiene un tamaño inicial y ocupa espacio solo en función del espacio disponible y el `flex-grow`.
+    - **`flex: 1 1 auto`**: El tamaño base se ajusta automáticamente en función del contenido del elemento o de cualquier tamaño explícito que se haya establecido (como `width` o `height`).
+- **Distribución del Espacio:**
+    
+    - **`flex: 1 1 0`**: El tamaño base es `0`, por lo que el elemento se expande para llenar el espacio disponible en el contenedor, ignorando el tamaño inicial.
+    - **`flex: 1 1 auto`**: El tamaño base es determinado por el contenido o propiedades del elemento, y el espacio adicional se distribuye en base a `flex-grow`.
+- **Uso:**
+    
+    - **`flex: 1 1 0`**: Útil cuando deseas que todos los elementos ocupen espacio en proporción al espacio disponible, ignorando sus tamaños base.
+    - **`flex: 1 1 auto`**: Útil cuando deseas que los elementos respeten su tamaño base natural (determinado por su contenido o propiedades de tamaño) mientras aún se ajustan para llenar el espacio disponible.
+
+Ambos enfoques tienen su utilidad dependiendo del diseño deseado y cómo quieres que los elementos se comporten dentro del contenedor flex.
+
+## Tres elementos de distinto tamaño. Poner el item central en el centro del contenedor padre
+
+TailwindCSS:
+```html
+<container className='flex-row grow gap-10'>
+	<item1 className='grow basis-0'>12345678</item1>
+	<item2>2</item2>
+	<item3 className='grow basis-0'>3123</item3>
+</container>
+```
+
+resultado :
+![[Pasted image 20240821230022.png]]
