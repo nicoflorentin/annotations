@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+                "file": "my-notes/Unsorted/NVM - Node version manager.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+                "file": "my-notes/Unsorted/NVM - Node version manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+                "file": "my-notes/Unsorted/NVM - Node version manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my-notes/HTML CSS/[CSS] CSS fundamentals.md"
+                "file": "my-notes/Unsorted/NVM - Node version manager.md"
               }
             }
           },
@@ -166,24 +166,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03aabd5cddd58c1d",
+  "active": "e72bb5fe6c15690e",
   "lastOpenFiles": [
-    "attachments/Pasted image 20240821230022.png",
-    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
-    "my-notes/HTML CSS/{ CSS } - New Features.md",
-    "my-notes/React Native/React Native - Blip.md",
-    "my-notes/ReactJs/Lazy loading.md",
-    "my-notes/Unsorted/[Bundle] - ViteJs.md",
+    "new-text-file.txt",
     "my-notes/Unsorted/Desarrollo mobile en 2024.md",
-    "my-notes/Unsorted/NVM - Node version manager.md",
+    "my-notes/Unsorted/[Bundle] - ViteJs.md",
     "my-notes/Unsorted/Video Edition.md",
-    "my-notes/BlipConnection/BlipConnection.md",
-    "PC Hardware.md",
-    "my-notes/BlipConnection",
-    "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
+    "my-notes/Unsorted/PC Hardware.md",
+    "my-notes/Typescript/Typescript random notes.md",
+    "my-notes/TailwindCSS/Tailwind notes.md",
+    "my-notes/React Native/React Native - Blip.md",
+    "my-notes/React Native/React - React Native (Codevolution).md",
+    "my-notes/ReactJs/{M2} - React redux.md",
+    "my-notes/ReactJs/[React] Rendering on React.md",
+    "my-notes/ReactJs/[React] Apunte CoderHouse.md",
     "my-notes/Typescript/Curso Typescript - Codrr.md",
     "my-notes/Typescript/Curso Typescript - Midudev.md",
-    "my-notes/React Native/React - React Native (Codevolution).md",
+    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+    "attachments/Pasted image 20240821230022.png",
+    "my-notes/HTML CSS/{ CSS } - New Features.md",
+    "my-notes/ReactJs/Lazy loading.md",
+    "my-notes/Unsorted/NVM - Node version manager.md",
+    "my-notes/BlipConnection/BlipConnection.md",
+    "my-notes/BlipConnection",
+    "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
     "my-notes/React Native/React - React Native (Javascript Mastery).md",
     "attachments/Pasted image 20240618130111.png",
     "attachments/Pasted image 20240618123354.png",
@@ -195,16 +201,10 @@
     "attachments/Pasted image 20240616130631.png",
     "attachments/Pasted image 20240616130557.png",
     "attachments/Pasted image 20240616130528.png",
-    "attachments/Pasted image 20240616130459.png",
     "my-notes/ReactJs/React Query.md",
     "my-notes/ReactJs/Redux Toolkit.md",
     "my-notes/ReactJs/React - React Router.md",
     "my-notes/ReactJs/React - React 19.md",
-    "my-notes/ReactJs/{React} - React Hooks.md",
-    "my-notes/ReactJs/[React] Apunte CoderHouse.md",
-    "my-notes/ReactJs/{M2} - React Router (react-router-dom).md",
-    "my-notes/ReactJs/React - Estructura de un proyecto de react -  Clean Architecture.md",
-    "my-notes/ReactJs/React - 12 Common Mistakes.md",
     "my-notes/Unsorted",
     "my-notes/Typescript",
     "my-notes/React Native",
