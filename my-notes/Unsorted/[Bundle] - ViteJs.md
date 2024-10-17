@@ -33,7 +33,14 @@ import URL_heartRed from'../img/heart-red.svg';
 
 
 
+#### Inicializar el proyecto en local y en red local : 
+Inicializa el proyecto en la red donde esta el desarrollo y en la red local a la que esta conectado el sistema:
 
-
-
-
+```js
+"scripts": {
+"dev": "vite --host", // agregar --host
+"build": "vite build",
+"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+"preview": "vite preview"
+},
+```
