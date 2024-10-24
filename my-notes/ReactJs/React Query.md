@@ -1,3 +1,125 @@
+https://www.youtube.com/watch?v=1Ytp_M3P6Xc&ab_channel=FaztCode
+
+### Configurar la instancia y el provider de React Query
+
+```tsx
+// queryClient.ts
+import { QueryClient } from "@tanstack/react-query";
+const queryClient = new QueryClient();
+export default queryClient;
+```
+
+```tsx
+// main.tsx
+import { QueryClientProvider } from "@tanstack/react-query";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import queryClient from "./queryClient";
+
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+  <React.StrictMode>
+    <QueryClientProvider client={queryClient}>
+      <App />
+    </QueryClientProvider>
+  </React.StrictMode>
+);
+```
+
+### Instanciar axios
+
+```ts
+// api/github.ts
+import axios from "axios";
+
+const api = axios.create({
+  baseURL: "https://api.github.com",
+});
+
+export default api;
+```
+
+
+### Custom hook
+
+```ts
+// hooks/useRepos.ts
+
+import { QueryFunctionContext, useQuery } from "@tanstack/react-query";
+import api from "../api/github";
+import { Repository } from "./types";
+
+async function fetchRepos(ctx: QueryFunctionContext) {
+  const [_, githubUser] = ctx.queryKey;
+  const { data } = await api.get<Repository[]>(`/users/${githubUser}/repos`);
+  return data;
+}
+
+export function useFetchRepositories(githubUser: string) {
+  return useQuery(["repos", githubUser], fetchRepos);
+}
+```
+
+### Store
+```ts
+import create from "zustand";
+import { persist } from "zustand/middleware";
+
+type favoriteRepoState = {
+  favoriteReposIds: number[];
+  addFavoriteRepo: (id: number) => void;
+  removeFavoriteRepo: (id: number) => void;
+};
+
+export const useFavoriteReposStore = create(
+  persist((set) => ({
+    favoriteReposIds: [],
+    addFavoriteRepo: (id: number) =>
+      set((state) => ({ favoriteReposIds: [...state.favoriteReposIds, id] })),
+    removeFavoriteRepo: (id: number) =>
+      set((state) => ({
+        favoriteReposIds: state.favoriteReposIds.filter(
+          (repoId) => repoId !== id
+        ),
+      })),
+  }), {
+    name: "favoriteRepos",
+  })
+);
+```
+### Consumiendo estado
+```tsx
+// App.tsx
+import Card from "./components/Card";
+import { useFetchRepositories } from "./hooks/useRepos";
+import { useFavoriteReposStore } from "./store/favoriteRepos";
+
+function App() {
+  const { data, isLoading } = useFetchRepositories("fazt");
+  const favoriteRepos = useFavoriteReposStore(
+    (state) => state.favoriteReposIds
+  );
+
+  if (isLoading) return <div>Loading...</div>;
+
+  return (
+    <div>
+      {data.map((repository) => (
+        <Card
+          repository={repository}
+          key={repository.id}
+          isFavorite={favoriteRepos.includes(repository.id)}
+        />
+      ))}
+    </div>
+  );
+}
+
+export default App;
+```
+
+---------------------------
+
+
 Si ves un refetch que no estás esperando, es probable que sea porque acabas de enfocar la ventana y **React Query está haciendo un refetchOnWindowFocus**, que es una gran característica para la producción
 Si el usuario va a una pestaña diferente del navegador, y luego vuelve a tu aplicación, un refetch en segundo plano se activará automáticamente, y los datos en la pantalla se actualizarán si algo ha cambiado en el servidor en el ínterin. Todo esto ocurre sin que se muestre un spinner de carga, y **tu componente no se volverá a renderizar si los datos son los mismos que tienes actualmente en la caché**.
 

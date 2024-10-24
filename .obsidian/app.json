@@ -7,5 +7,6 @@
     "landscape": false,
     "margin": "1",
     "downscalePercent": 100
-  }
+  },
+  "readableLineLength": false
 }
