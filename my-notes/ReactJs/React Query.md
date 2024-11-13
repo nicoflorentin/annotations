@@ -73,8 +73,7 @@ type favoriteRepoState = {
 export const useFavoriteReposStore = create(
   persist((set) => ({
     favoriteReposIds: [],
-    addFavoriteRepo: (id: number) =>
-      set((state) => ({ favoriteReposIds: [...state.favoriteReposIds, id] })),
+    addFavoriteRepo: (id: number) => set((state) => ({ favoriteReposIds: [...state.favoriteReposIds, id] })),
     removeFavoriteRepo: (id: number) =>
       set((state) => ({
         favoriteReposIds: state.favoriteReposIds.filter(

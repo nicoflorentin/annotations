@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1e50e6d7b37aaf17",
+        "id": "8b58f1f93fb9d946",
         "type": "tabs",
         "children": [
           {
-            "id": "381404ed234a2ab8",
+            "id": "dcc7dd253583cb1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/Personal/pomodoro.md",
+                "file": "my-notes/ReactJs/Handle User Permissions.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pomodoro"
+              "title": "Handle User Permissions"
             }
           }
         ]
@@ -53,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zustand",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,13 +186,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "381404ed234a2ab8",
+  "active": "dcc7dd253583cb1c",
   "lastOpenFiles": [
-    "my-notes/Personal/postulacion.md",
-    "my-notes/ReactJs/{React} - React Hooks.md",
+    "my-notes/ReactJs/Handle User Permissions.md",
     "my-notes/ReactJs/Zustand.md",
     "my-notes/ReactJs/React Query.md",
-    "my-notes/ReactJs/Untitled.md",
+    "my-notes/Personal/pomodoro.md",
+    "my-notes/Personal/postulacion.md",
+    "my-notes/ReactJs/{React} - React Hooks.md",
     "my-notes/ReactJs/React - Estructura de un proyecto de react -  Clean Architecture.md",
     "my-notes/NodeJS/Novedades Node 22.md",
     "my-notes/Back End/{M3} 1 - Node Js.md",
@@ -204,7 +204,6 @@
     "my-notes/Personal/3 approachings para manejar el estado de selected task en pomodoroApp.md",
     "my-notes/Personal/Desarrollo mobile en 2024.md",
     "my-notes/Personal/Javascript to learn.md",
-    "my-notes/Personal/pomodoro.md",
     "my-notes/Computer Science/Complejidad algoritmica.md",
     "my-notes/Computer Science/Teoría de programación y terminología.md",
     "my-notes/Git - GitHub/{GIT} - Git y GitHub.md",
