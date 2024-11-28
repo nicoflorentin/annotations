@@ -230,6 +230,17 @@ Evitar que cuando aparezca la scrollbar el layout se desplace a la izquierda
 ```
 
 ## Flexbox shortcut
+
+## Tres elementos de distinto tamaño. Poner el item central en el centro del contenedor padre
+
+TailwindCSS:
+```html
+<container className='flex-row grow gap-10'>
+	<item1 className='grow basis-0'>12345678</item1>
+	<item2>2</item2>
+	<item3 className='grow basis-0'>3123</item3>
+</container>
+```
 ### Comparación
 
 - **Tamaño Base:**
@@ -247,16 +258,16 @@ Evitar que cuando aparezca la scrollbar el layout se desplace a la izquierda
 
 Ambos enfoques tienen su utilidad dependiendo del diseño deseado y cómo quieres que los elementos se comporten dentro del contenedor flex.
 
-## Tres elementos de distinto tamaño. Poner el item central en el centro del contenedor padre
-
-TailwindCSS:
-```html
-<container className='flex-row grow gap-10'>
-	<item1 className='grow basis-0'>12345678</item1>
-	<item2>2</item2>
-	<item3 className='grow basis-0'>3123</item3>
-</container>
-```
-
 resultado :
 ![[Pasted image 20240821230022.png]]
+
+### min-height-size
+Especifica el tamaño mínimo de un elemento en el eje del **bloque** de diseño lógico, que depende del flujo de contenido y el idioma.
+```css
+.box {
+	min-height: 200px; /* Basado en altura fija (eje físico) */ 
+	min-block-size: 200px; /* Basado en tamaño lógico adaptable */ 
+}
+```
+
+****
