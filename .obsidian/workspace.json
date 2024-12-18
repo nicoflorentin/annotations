@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8b58f1f93fb9d946",
+        "id": "94aa515042ab96d4",
         "type": "tabs",
         "children": [
           {
-            "id": "dcc7dd253583cb1c",
+            "id": "b0f439776e0173ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "my-notes/Personal/Aplicacion de sincronizacion de i cugini.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Aplicacion de sincronizacion de i cugini"
+              "title": "New tab"
             }
           }
         ]
@@ -186,18 +182,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcc7dd253583cb1c",
+  "active": "b0f439776e0173ce",
   "lastOpenFiles": [
-    "my-notes/Unsorted/React - Preguntas técnicas.md",
+    "my-notes/Computer Science/Complejidad algoritmica.md",
+    "my-notes/Computer Science/Teoría de programación y terminología.md",
+    "attachments/Pasted image 20230320113154.png",
+    "attachments/Pasted image 20230303115814.png",
+    "my-notes/HTML CSS/[HTML] - HTML fundamentals.md",
+    "my-notes/HTML CSS/[CSS] Flexbox y Grids.md",
+    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
+    "my-notes/HTML CSS/[CSS] Bootsrap + Themes.md",
+    "my-notes/HTML CSS/HTML for emails.md",
     "my-notes/Personal/Aplicacion de sincronizacion de i cugini.md",
+    "my-notes/Unsorted/React - Preguntas técnicas.md",
     "my-notes/Unsorted/Video Edition.md",
     "my-notes/ReactJs/[React] Apunte CoderHouse.md",
     "my-notes/JavaScript/[JavaScript] Map, Filter y Reduce.md",
     "my-notes/JavaScript/Javascript - notas.md",
     "my-notes/JavaScript/[JavaScript] JavaScript tools.md",
-    "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
     "my-notes/Unsorted/Node - Preguntas técnicas backend.md",
-    "my-notes/HTML CSS/[HTML] - HTML fundamentals.md",
     "my-notes/TailwindCSS/Tailwind notes.md",
     "my-notes/Personal/Strava app.md",
     "my-notes/Personal/Startup.md",
@@ -209,11 +212,6 @@
     "my-notes/Unsorted/[Bundle] - ViteJs.md",
     "my-notes/Unsorted/Javascript - Nuevos métodos.md",
     "my-notes/Unsorted/JSON Server.md",
-    "my-notes/Unsorted/NVM - Node version manager.md",
-    "my-notes/NodeJS/Novedades Node 22.md",
-    "my-notes/NodeJS/[NodeJS] - NodeJs Codevolution.md",
-    "my-notes/ReactJs/Handle User Permissions.md",
-    "my-notes/ReactJs/Zustand.md",
     "my-notes/NodeJS",
     "my-notes/Personal",
     "my-notes/Q&A",
@@ -228,8 +226,6 @@
     "attachments/Pasted image 20240618123326.png",
     "attachments/Pasted image 20240618123117.png",
     "attachments/Pasted image 20240616130631.png",
-    "attachments/Pasted image 20240616130557.png",
-    "attachments/Pasted image 20240616130528.png",
     "my-notes/Unsorted",
     "my-notes/Typescript",
     "my-notes/React Native",

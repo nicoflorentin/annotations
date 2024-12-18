@@ -4,5 +4,7 @@
   "theme": "moonstone",
   "textFontFamily": "Arial,Inter",
   "showViewHeader": true,
-  "nativeMenus": true
+  "nativeMenus": false,
+  "cssTheme": "Golden Topaz",
+  "baseFontSizeAction": true
 }
