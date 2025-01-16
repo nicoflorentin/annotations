@@ -1,0 +1,1 @@
+document.designMode = 'true'

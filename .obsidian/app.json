@@ -10,5 +10,6 @@
   },
   "readableLineLength": false,
   "showInlineTitle": true,
-  "showRibbon": true
+  "showRibbon": true,
+  "spellcheck": false
 }

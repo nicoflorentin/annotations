@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "94aa515042ab96d4",
+        "id": "8d03f70399e4116f",
         "type": "tabs",
         "children": [
           {
-            "id": "b0f439776e0173ce",
+            "id": "cabc801b006f64cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "my-notes/Astro/Astro Midu.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Astro Midu"
             }
           }
         ]
@@ -48,8 +52,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "protected",
-                "matchingCase": true,
+                "query": "astr",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -79,11 +83,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 387.5,
+    "collapsed": true
   },
   "right": {
     "id": "eb30fa554dd9762d",
@@ -182,8 +188,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0f439776e0173ce",
+  "active": "cabc801b006f64cc",
   "lastOpenFiles": [
+    "my-notes/HTML CSS/CSS Reset.md",
+    "my-notes/Astro/Astro Midu.md",
+    "my-notes/Unsorted/Google Chrome.md",
+    "my-notes/Personal/Roadmap.md",
+    "my-notes/Astro",
+    "my-notes/Personal/Desarrollo mobile en 2024.md",
+    "my-notes/Personal/Aplicacion de sincronizacion de i cugini.md",
+    "my-notes/Personal/3 approachings para manejar el estado de selected task en pomodoroApp.md",
+    "my-notes/Typescript/Curso Typescript - Codrr.md",
+    "my-notes/JavaScript/TypeScript.md",
     "my-notes/Computer Science/Complejidad algoritmica.md",
     "my-notes/Computer Science/Teoría de programación y terminología.md",
     "attachments/Pasted image 20230320113154.png",
@@ -193,7 +209,6 @@
     "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
     "my-notes/HTML CSS/[CSS] Bootsrap + Themes.md",
     "my-notes/HTML CSS/HTML for emails.md",
-    "my-notes/Personal/Aplicacion de sincronizacion de i cugini.md",
     "my-notes/Unsorted/React - Preguntas técnicas.md",
     "my-notes/Unsorted/Video Edition.md",
     "my-notes/ReactJs/[React] Apunte CoderHouse.md",
@@ -204,14 +219,6 @@
     "my-notes/TailwindCSS/Tailwind notes.md",
     "my-notes/Personal/Strava app.md",
     "my-notes/Personal/Startup.md",
-    "my-notes/Personal/postulacion.md",
-    "my-notes/ReactJs/React - React Router.md",
-    "my-notes/ReactJs/React Query.md",
-    "my-notes/Typescript/Curso Typescript - Midudev.md",
-    "my-notes/JavaScript/[JavaScript] Manage Modules (import - export).md",
-    "my-notes/Unsorted/[Bundle] - ViteJs.md",
-    "my-notes/Unsorted/Javascript - Nuevos métodos.md",
-    "my-notes/Unsorted/JSON Server.md",
     "my-notes/NodeJS",
     "my-notes/Personal",
     "my-notes/Q&A",
@@ -229,7 +236,6 @@
     "my-notes/Unsorted",
     "my-notes/Typescript",
     "my-notes/React Native",
-    "Q&A",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Untitled 5.canvas",
