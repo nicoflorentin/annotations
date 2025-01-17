@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=WHqZAXHZN_w&t=2407s&ab_channel=midulive
 - schemas
 - paginas dinamicas
 - plugin de tailwind paragraph
-- animaciones entre paginas
+- ani maciones entre paginas
 - variables de entorno
 - server islands (para ejecutar js en el servidor y renderizar en el servidor, tambien usa fallbacks para renderizar algo mientras esta cargando)
 - javascript en el cliente
@@ -75,3 +75,16 @@ FETCHING DE DATOS
 
 RENDERIZADO CONDICIONAL DE ESTILOS
 class:list = {Array}
+
+GET STATIC PATHS
+getStatisPaths()
+
+SERVER SIDE RENDERING
+
+COMPONENTES INTERACTIVOS
+hace un componente de preact con un estado interno
+llama al componente
+le pone la directiva client:visible
+si actualizo la pagina no hay persistencia de datos
+para que haya persistencia de datos, hay que usar la directiva transition:persist. en el mismo componente o en un componente padre
+
