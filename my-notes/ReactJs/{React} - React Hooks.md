@@ -33,3 +33,6 @@ useEffect(() => {
 - Si **no hay array de dependencias**, el efecto se ejecuta cada vez que se rerenderiza el componente
 - Si el array de dependencias esta **vacío**, el efecto se ejecuta solo una vez
 - Si el array de dependencias **tiene una variable**, el efecto se ejecuta sólo cuando cambie esa variable.
+
+## use
+https://react.dev/reference/react/use

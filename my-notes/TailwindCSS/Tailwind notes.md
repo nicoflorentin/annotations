@@ -55,8 +55,8 @@ export default {
   ],
 }
 ```
-```js
-// ../index.css
+```css
+/* ../index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -72,7 +72,7 @@ export default {
 https://dev.to/derick1530/how-to-create-scrollable-element-in-tailwind-without-a-scrollbar-4mbd
 
 ```js
-//global index.css
+//global.css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -89,4 +89,20 @@ https://dev.to/derick1530/how-to-create-scrollable-element-in-tailwind-without-a
           scrollbar-width: none;  /* Firefox */
     }
   }
+```
+
+### @apply
+Crear clases globales que contengan clases de tailwind agrupadas
+```css
+/* global.css */
+.container {
+ @apply text-primary font-bold sm:font-medium md:font-semibold
+}
+```
+
+```jsx
+// component.tsx
+<p class='container'>
+	Lorem Ipsum
+</div>
 ```

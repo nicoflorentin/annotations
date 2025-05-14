@@ -1,10 +1,11 @@
 {
   "baseFontSize": 15,
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "textFontFamily": "Arial,Inter",
   "showViewHeader": true,
   "nativeMenus": false,
   "cssTheme": "Typewriter",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "showRibbon": true
 }

@@ -207,7 +207,8 @@ or
 ```
 ``
 ## White Space
-The `white-space` property specifies how white-space inside an element is handled
+The `white-space` property specifies how white-space inside an element is handled.
+Lo usé para evitar que un texto en un título haga wrap y se desalinie del resto de los titulos adyacentes.
 ```css
 .class {
 white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit;
@@ -270,4 +271,26 @@ Especifica el tamaño mínimo de un elemento en el eje del **bloque** de diseño
 }
 ```
 
-****
+## Inset
+
+Espacio entre el elemento y su elemento padre, a diferencia del padding, el elemento hijo sera casi tan grande como el padre en todas sus dimensiones (x , y)
+```css
+/* CSS code*/
+div {  
+	inset: 35px;
+}
+```
+
+## Auto scroll
+```js
+// autoScrollScript.js
+const form = document.getElementById("form-surface-container")
+const contactButton = document.getElementById("contact-button")
+
+contactButton?.addEventListener("click", () => {
+form?.scrollIntoView({ behavior: "smooth", block: "center" })
+})
+```
+## To sort notes
+saturation
+w-auto- h-32

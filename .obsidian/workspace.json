@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8d03f70399e4116f",
+        "id": "91694a4136b19e44",
         "type": "tabs",
         "children": [
           {
-            "id": "cabc801b006f64cc",
+            "id": "387de223730246c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/Astro/Astro Midu.md",
+                "file": "my-notes/Docker 🐋.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Astro Midu"
+              "title": "Docker 🐋"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "astr",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,13 +84,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "eb30fa554dd9762d",
@@ -188,37 +187,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cabc801b006f64cc",
+  "active": "387de223730246c8",
   "lastOpenFiles": [
-    "my-notes/HTML CSS/CSS Reset.md",
+    "my-notes/Full Stack Open/6 - Advanced state management.md",
+    "my-notes/Docker 🐋.md",
     "my-notes/Astro/Astro Midu.md",
-    "my-notes/Unsorted/Google Chrome.md",
-    "my-notes/Personal/Roadmap.md",
-    "my-notes/Astro",
-    "my-notes/Personal/Desarrollo mobile en 2024.md",
-    "my-notes/Personal/Aplicacion de sincronizacion de i cugini.md",
-    "my-notes/Personal/3 approachings para manejar el estado de selected task en pomodoroApp.md",
-    "my-notes/Typescript/Curso Typescript - Codrr.md",
-    "my-notes/JavaScript/TypeScript.md",
-    "my-notes/Computer Science/Complejidad algoritmica.md",
-    "my-notes/Computer Science/Teoría de programación y terminología.md",
-    "attachments/Pasted image 20230320113154.png",
-    "attachments/Pasted image 20230303115814.png",
-    "my-notes/HTML CSS/[HTML] - HTML fundamentals.md",
-    "my-notes/HTML CSS/[CSS] Flexbox y Grids.md",
     "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
     "my-notes/HTML CSS/[CSS] Bootsrap + Themes.md",
     "my-notes/HTML CSS/HTML for emails.md",
-    "my-notes/Unsorted/React - Preguntas técnicas.md",
-    "my-notes/Unsorted/Video Edition.md",
-    "my-notes/ReactJs/[React] Apunte CoderHouse.md",
-    "my-notes/JavaScript/[JavaScript] Map, Filter y Reduce.md",
-    "my-notes/JavaScript/Javascript - notas.md",
-    "my-notes/JavaScript/[JavaScript] JavaScript tools.md",
-    "my-notes/Unsorted/Node - Preguntas técnicas backend.md",
+    "my-notes/HTML CSS/CSS Resources.md",
+    "my-notes/HTML CSS/CSS Reset.md",
+    "my-notes/HTML CSS/{ CSS } - New Features.md",
+    "my-notes/HTML CSS/[HTML] - HTML fundamentals.md",
+    "my-notes/Astro/Astro notes.md",
     "my-notes/TailwindCSS/Tailwind notes.md",
-    "my-notes/Personal/Strava app.md",
+    "my-notes/ReactJs/{React} - React Hooks.md",
+    "my-notes/Personal/Entrevista españa.md",
+    "attachments/comandos.md",
+    "my-notes/Personal/Departamento.md",
+    "my-notes/Personal/Menu semanal.md",
+    "my-notes/Personal/postulacion.md",
+    "my-notes/Personal/Roadmap.md",
     "my-notes/Personal/Startup.md",
+    "my-notes/HTML CSS/[CSS] Flexbox y Grids.md",
+    "my-notes/Personal/Ingredientes.md",
+    "my-notes/HTML CSS/CSS - New Features.md",
+    "my-notes/HTML CSS/CSS - Resources.md",
+    "my-notes/Unsorted/Google Chrome.md",
+    "my-notes/Astro",
+    "my-notes/Personal/Desarrollo mobile en 2024.md",
+    "attachments/Pasted image 20230320113154.png",
+    "attachments/Pasted image 20230303115814.png",
     "my-notes/NodeJS",
     "my-notes/Personal",
     "my-notes/Q&A",

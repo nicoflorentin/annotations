@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=WHqZAXHZN_w&t=2407s&ab_channel=midulive
 - schemas
 - paginas dinamicas
 - plugin de tailwind paragraph
-- ani maciones entre paginas
+- animaciones entre paginas
 - variables de entorno
 - server islands (para ejecutar js en el servidor y renderizar en el servidor, tambien usa fallbacks para renderizar algo mientras esta cargando)
 - javascript en el cliente
@@ -67,7 +67,6 @@ el slot es como el children
 usar slot names para indicar en que posicion renderizar el contenido https://youtu.be/RB5tR_nqUEw?t=2538
 
 MARKDOWN
-
 
 USAR HTML
 
