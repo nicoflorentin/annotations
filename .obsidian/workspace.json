@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Docker 🐋"
             }
+          },
+          {
+            "id": "86bc7b8cbae166e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "my-notes/Docker 🐋.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Docker 🐋"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,17 +202,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "387de223730246c8",
+  "active": "86bc7b8cbae166e7",
   "lastOpenFiles": [
-    "my-notes/Full Stack Open/6 - Advanced state management.md",
+    "my-notes/Jest 🤡.md",
     "my-notes/Docker 🐋.md",
+    "my-notes/HTML CSS/{ CSS } - New Features.md",
+    "my-notes/Full Stack Open/6 - Advanced state management.md",
     "my-notes/Astro/Astro Midu.md",
     "my-notes/HTML CSS/[CSS] CSS fundamentals.md",
     "my-notes/HTML CSS/[CSS] Bootsrap + Themes.md",
     "my-notes/HTML CSS/HTML for emails.md",
     "my-notes/HTML CSS/CSS Resources.md",
     "my-notes/HTML CSS/CSS Reset.md",
-    "my-notes/HTML CSS/{ CSS } - New Features.md",
     "my-notes/HTML CSS/[HTML] - HTML fundamentals.md",
     "my-notes/Astro/Astro notes.md",
     "my-notes/TailwindCSS/Tailwind notes.md",
@@ -215,7 +231,6 @@
     "my-notes/HTML CSS/CSS - Resources.md",
     "my-notes/Unsorted/Google Chrome.md",
     "my-notes/Astro",
-    "my-notes/Personal/Desarrollo mobile en 2024.md",
     "attachments/Pasted image 20230320113154.png",
     "attachments/Pasted image 20230303115814.png",
     "my-notes/NodeJS",
