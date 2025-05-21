@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=GFgJkfScVNU&ab_channel=JavaScriptMastery
+
 **Advantages :** 
 - Consistency across environments
 - Isolation
@@ -26,4 +28,8 @@ Docker host - Docker daemon:
 Background process to manage containers on the host system. Listen for docker clients commands, create images, build images, etc.
 
 Docker registry - Docker hub:
-- [ ] Centralized repository of docker images
+Centralized repository of docker images, hosts public and private registries or packages
+
+![[Pasted image 20250516020841.png]]
+
+12:23
