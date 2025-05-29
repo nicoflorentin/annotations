@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/Docker 🐋.md",
+                "file": "my-notes/ReactJs/Context.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker 🐋"
+              "title": "Context"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "eb30fa554dd9762d",
@@ -190,9 +189,13 @@
   },
   "active": "86bc7b8cbae166e7",
   "lastOpenFiles": [
+    "my-notes/ReactJs/React - Estructura de un proyecto de react -  Clean Architecture.md",
+    "my-notes/ReactJs/Context.md",
+    "my-notes/ReactJs/[React] Rendering on React.md",
+    "my-notes/ReactJs/[React] Apunte CoderHouse.md",
+    "my-notes/Docker 🐋.md",
     "attachments/Pasted image 20250516020841.png",
     "my-notes/Jest 🤡.md",
-    "my-notes/Docker 🐋.md",
     "my-notes/HTML CSS/{ CSS } - New Features.md",
     "my-notes/Full Stack Open/6 - Advanced state management.md",
     "my-notes/Astro/Astro Midu.md",
@@ -213,9 +216,6 @@
     "my-notes/Personal/Roadmap.md",
     "my-notes/Personal/Startup.md",
     "my-notes/HTML CSS/[CSS] Flexbox y Grids.md",
-    "my-notes/Personal/Ingredientes.md",
-    "my-notes/HTML CSS/CSS - New Features.md",
-    "my-notes/HTML CSS/CSS - Resources.md",
     "my-notes/Astro",
     "attachments/Pasted image 20230320113154.png",
     "attachments/Pasted image 20230303115814.png",
@@ -232,7 +232,6 @@
     "attachments/Pasted image 20240618123339.png",
     "attachments/Pasted image 20240618123326.png",
     "attachments/Pasted image 20240618123117.png",
-    "attachments/Pasted image 20240616130631.png",
     "my-notes/Unsorted",
     "my-notes/Typescript",
     "my-notes/React Native",
