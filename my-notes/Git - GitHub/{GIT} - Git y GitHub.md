@@ -1,20 +1,44 @@
 ## Comandos
 
-- **Ver ramas :** `git branch`
-- **Moverse a una rama :** `git checkout nombreDeRama`
-- **Borrar rama remota desde git local :** `git push origin --delete nombreDeRama`
-- **Hacer commit sin cambiar el codigo:** `git commit --allow-empty -m "Mensaje del commit"`
-- **Descarga los cambios del repositorio remoto sin fusionarlos con tu rama actual.** `git fetch origin`
-- Realizar un **git pull pero no crear automáticamente una confirmación** (commit) después de fusionar los cambios. Es útil si deseas revisar los cambios antes de confirmarlos manualmente: `git pull --no-commit origin main`
-- **Show the local branches you’ve created for your project :** `git branch`
-- **Mostrar todas las ramas incluidas las remotas : `git branch -a`
-- **Delete a local branch:** `git branch -d branch-name`
-- **Forzar la actualización remota:** `git push --force`
-- **To push the branch to the remote server:** `git push -u origin <branchName>`
-- **Actualizar ramas remotas en el repositorio local:** `git fetch --prune`
-- **Delete untracked files and directories:** `git clean -df`
-- **Delete untracked directories:** ``git clean -d``
-- **Delete untracked files:** ``git clean -f``
+### 🪴 Ramas
+
+- **Ver ramas:** `git branch`
+- **Mostrar todas las ramas (locales + remotas):** `git branch -a`
+- **Cambiar de rama:** `git checkout nombreDeRama`
+- **Eliminar rama local:** `git branch -d branch-name`
+- **Eliminar rama remota:** `git push origin --delete nombreDeRama`
+- **Actualizar ramas remotas (y limpiar las borradas):** `git fetch --prune`
+
+### 🔁 Tracking
+
+- **Descargar cambios sin fusionar:** `git fetch origin`
+- **Commit vacío (sin modificar archivos):** `git commit --allow-empty -m "Mensaje del commit"`
+- **Eliminar archivos y directorios no trackeados:** `git clean -df`
+- **Eliminar solo directorios no trackeados:** `git clean -d`
+- **Eliminar solo archivos no trackeados:** `git clean -f`
+
+### 🚀 Push
+
+- **Subir la rama y setear tracking:** `git push -u origin <branchName>`
+- **Forzar push (sobrescribir remoto):** `git push --force`
+
+### 📥 Pull
+- **Pull equivale a:** `git fetch && git merge`
+- **Pull sin commit automático:** `git pull --no-commit origin main`
+- **En lugar de hacer merge, reubica tus commits encima de los que vienen del remoto:** `git pull --rebase`
+- **Si trabajás en ramas activamente modificadas por otros, en lugar de `git pull`, hacé:** `git fetch git && rebase origin/main`
+### 🔙 Reset
+
+- **Soft reset (mantiene staged):** `git reset --soft HEAD~1` — deshace el último commit pero deja archivos en staging.
+- **Mixed reset (unstaged):** `git reset --mixed HEAD~1` — deshace el último commit y deja cambios sin staging.
+- **Hard reset (borra todo):** `git reset --hard HEAD~1` — deshace último commit y elimina cambios locales.
+
+### Diff
+
+- **Diff resumido entre ramas:** `git diff --stat main..feature-branch`
+- **Log gráfico oneline:** `git log --oneline --graph --all --decorate`
+- **Mostrar cambios de un commit especifico:** `git show <sha>`
+
 ### Configurar nombre y email : 
 
 git config --global user.name "John Doe"
