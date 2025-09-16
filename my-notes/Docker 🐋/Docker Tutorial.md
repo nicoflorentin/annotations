@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=GFgJkfScVNU&ab_channel=JavaScriptMastery
 - Consistency across environments
 - Isolation
 - Portability
-- Faster virtuall machine
+- Faster than a virtual machine
 - Scalability
 - DevOps integration
 
@@ -14,7 +14,7 @@ Images:
 Includes de code, runtimes, libraries, operating system, system tools.
 
 Containers:
-Runnable instance of a docker image, we can run multiple containers from a simple image. It's like a wine runner (config) and wine prefix (instance).
+Runnable instance of a docker image, we can run multiple containers from a simple image. It's like a wine runner (image) and wine prefix (instance).
 
 Docker network:
 Communication channel between containers or external services mantaining isolation.
@@ -307,5 +307,107 @@ volumes:
   anime:
 ```
 
-01:02:30
+**Watch for changes**
+```bash 
+sudo docker compose watch
+```
 
+**Docker scout**
+scan for container vulnerabilities
+
+1:13:00
+**Dockerise a fullstack NextJS app**
+
+```bash
+docker init
+```
+
+./Dockerfile
+
+```dockerfile
+FROM node
+
+# working directory
+WORKDIR /app
+
+# copy packages config into the image
+COPY package*.json ./
+
+RUN npm install
+
+# copy the rest of the source files into the image
+COPY . .
+
+# expose the port
+EXPOSE 3000
+
+# run the app
+CMD npm run dev
+```
+
+```yaml
+# version of yaml format
+version: '3.8'
+
+services:
+  frontend:
+    # uncomment the following line if you want to run a local instance of MongoDB
+    # depends_on:
+    #   - db
+    build:
+      context: .
+      # name of dockerfile
+      dockerfile: Dockerfile
+    
+    # do port mapping so that we can access the app from the browser
+    ports:
+      - 3000:3000
+    
+    # use docker compose to watch for changes and rebuild the container
+    develop:
+      watch:
+        - path: ./package.json
+          action: rebuild
+        - path: ./next.config.js
+          action: rebuild
+        - path: ./package-lock.json
+          action: rebuild
+        - path: .
+          target: /app
+          action: sync
+    
+    # define the environment variables
+    environment:
+      # we're using MongoDB atlas so we need to pass in the connection string
+      DB_URL: mongodb+srv://sujata:rnZzJjIDr3bIDymV@cluster0.hnn88vs.mongodb.net/ 
+
+  # we're using MongoDB atlas so we don't need to run a local instance of MongoDB
+  # but if you want to run a local instance, you can do it this way
+  # db:
+  #   image: mongo
+  #   ports:
+  #     - 27017:27017
+  #   environment:
+  #     - MONGO_INITDB_ROOT_USERNAME=sujata
+  #     - MONGO_INITDB_ROOT_PASSWORD=rnZzJjIDr3bIDymV
+  #   volumes:
+  #     - tasked:/data/db
+    
+volumes:
+  tasked:
+
+```
+
+
+**Ventajas de dockerizar**:
+- **Portabilidad**: corre igual en Windows, Mac y Linux.
+- **Estandarización**: todos los devs usan el mismo entorno.
+- **Escalabilidad**: fácil replicar servicios (ej. streaming, microservicios).
+- **Actualizaciones seguras**: menos riesgo de romper dependencias.
+- **Colaboración**: cada dev tiene la misma config y librerías.
+- **Revitalizar legacy apps**: aislar dependencias de sistemas viejos.
+**Casos de uso**
+- Apps grandes y complejas (ej. e-commerce con múltiples APIs).
+- Microservicios independientes (ej. social media: auth, posts, notificaciones).
+- Escalabilidad en servicios populares (ej. streaming).
+- Trabajo en equipo con entornos homogéneos.
