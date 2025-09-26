@@ -1,8 +1,26 @@
+### Nuevos
+
+#### https://roomix.ai/propiedad/departamento-2-ambientes-quilmes-97541520?q=departamento+en+alquiler+en+quilmes+oeste%2C+buenos+aires+por+menos+de+500+mil+pesos
+
+#### https://roomix.ai/propiedad/departamento-2-ambientes-quilmes-4915dcf8?q=departamento+en+alquiler+en+quilmes+oeste%2C+buenos+aires+por+menos+de+500+mil+pesos (dueño directo)
+
+#### https://roomix.ai/propiedad/departamento-1-ambientes-quilmes-df6a0934
+
+#### https://roomix.ai/propiedad/departamento-3-ambientes-quilmes-1a9d224b
+
+### https://roomix.ai/propiedad/departamento-1-ambientes-quilmes-1b8737e8 expensas caras
+
+### https://roomix.ai/propiedad/departamento-1-ambientes-quilmes-df6a0934
+
+### 
+
+### Viejos
+
 monoambiente-candidatos
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-### Maso pero barato = 180 mil
+#### Maso pero barato = 180 mil
 https://www.victoriacallegari.com.ar/propiedad/614077
 14 y camino
 feo pero barato
@@ -10,7 +28,7 @@ feo pero barato
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-### Lindo sin cochera 360 (conviene el de bera) = 360 mil
+#### Lindo sin cochera 360 (conviene el de bera) = 360 mil
 https://departamento.mercadolibre.com.ar/MLA-1470918531-monoambiente-en-alquiler-en-quilmes-centro-_JM#polycard_client=search-nordic&position=21&search_layout=grid&type=item&tracking_id=4c281df0-c38a-4ce8-9cb8-1710ec474a1e
 
 hermoso
@@ -21,7 +39,7 @@ quilmes centro a una cuadra de irigoyen
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-### Subsuelo en pellegrini = 305 mil
+#### Subsuelo en pellegrini = 305 mil
 https://departamento.mercadolibre.com.ar/MLA-1989251574-monoambiente-en-alquiler-en-quilmes-oeste-_JM#polycard_client=search-nordic&position=36&search_layout=grid&type=item&tracking_id=4c281df0-c38a-4ce8-9cb8-1710ec474a1e
 
 subsuelo
@@ -31,7 +49,7 @@ enfrente de plaza pellegrini
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-### Lindo en bera centro con cochera chica = 435 mil
+#### Lindo en bera centro con cochera chica = 435 mil
 https://departamento.mercadolibre.com.ar/MLA-1995787526-departamento-en-alquiler-en-berazategui-_JM#polycard_client=search-nordic&position=12&search_layout=gallery&type=item&tracking_id=2e573511-42a8-466f-a4a8-43f67b13c866
 
 hermoso
@@ -41,7 +59,7 @@ con cochera
 *350 mil + 85 expensas aprox = 435*
 
 ////////////////////////////////////////////////////////////////////////////////////
-### Lindo pero muy chico en Guido Quilmes centro = 330 mil
+#### Lindo pero muy chico en Guido Quilmes centro = 330 mil
 https://www.argenprop.com/departamento-en-alquiler-en-quilmes-1-ambiente--16522967
 25m2, medio chico
 muy lindo
@@ -51,7 +69,7 @@ cochera opcional
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-### Lindo en Berazategui sobre la 20 cerca del centro = 340 mil
+#### Lindo en Berazategui sobre la 20 cerca del centro = 340 mil
 https://www.abrahaminmobiliaria.com.ar/propiedad-departamento-alquiler-berazategui-este-397-2810
 ajuste cada 4 meses por ICL
 bañera - balcon - armario - baño lindo
@@ -60,7 +78,7 @@ sin cochera, barrio
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-### Espacioso cerca de lo de pau con cochera, sobre 137 = 315 mil
+#### Espacioso cerca de lo de pau con cochera, sobre 137 = 315 mil
 https://www.abrahaminmobiliaria.com.ar/propiedad-departamento-alquiler-berazategui-oeste-397-1021
 
 Abajo monoambiente
@@ -68,7 +86,7 @@ pieza en entrepiso
 garage techado
 
 ////////////////////////////////////////////////////////////////////////////////////
-### Al lado de las vias, lindo viejito dos ambientes = 350 mil
+#### Al lado de las vias, lindo viejito dos ambientes = 350 mil
 *Inmobiliaria occi pinti, quilmes*
 
 Alberdi 6
@@ -80,7 +98,7 @@ trimestral por IPC
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-### Monoambiente por Bernal centro = 270 mil + exp (seguir contactando)
+#### Monoambiente por Bernal centro = 270 mil + exp (seguir contactando)
 https://www.zonaprop.com.ar/propiedades/clasificado/alclapin--precioso-monoambiente-en-alquiler-en-bernal!-53844655.html
 
 mesada
@@ -89,7 +107,7 @@ balcon
 sin cocina
 
 ////////////////////////////////////////////////////////////////////////////////////
-### Monoambiente full equipado Bernal Centro = 280 mil sin exp
+#### Monoambiente full equipado Bernal Centro = 280 mil sin exp
 https://www.zonaprop.com.ar/propiedades/clasificado/alclapin-monoambiente-sin-expensas-en-el-centro-de-bernal-55366497.html
 
 Al ingresar gran ambiente con amplio balcón al contrafrente.
@@ -98,13 +116,13 @@ Aire acondicionado.
 El departamento cuenta con todo eléctrico. Abona únicamente este servicio.
 
 ////////////////////////////////////////////////////////////////////////////////////
-### HERMOSO EN GUIDO Y MITRE = 330 mil
+#### HERMOSO EN GUIDO Y MITRE = 330 mil
 https://www.zonaprop.com.ar/propiedades/clasificado/alclapin-monoambientes-a-estrenar-en-quilmes-centro-48330659.html
 
 **LLAME PERO NO ATENDIERON**
 
 ////////////////////////////////////////////////////////////////////////////////////
-### Lindo cerca de plaza suiza = 260 mil
+#### Lindo cerca de plaza suiza = 260 mil
 https://www.zonaprop.com.ar/propiedades/clasificado/alclapin-alquiler-monoambiente-rawson-numero-140-bernal-55164633.html
 
 https://www.instagram.com/villapazpropiedades/ **LLAMAR URGENTE**
@@ -118,7 +136,7 @@ expensas $20.000 (incluye Agua)
 **PIDE SEGURO DE CAUCION PERO PIDEN SOLVECIA ECONOMICA**
 
 ///////////////////////////////////////////////////////////////////////////////////
-### Monoambiente en bernal a una cuadra de san martin y 3 de la estacion = 380 con todos los servicios
+#### Monoambiente en bernal a una cuadra de san martin y 3 de la estacion = 380 con todos los servicios
 https://www.zonaprop.com.ar/propiedades/clasificado/alclapin--precioso-monoambiente-en-alquiler-en-bernal!-53844655.html
 
 a estrenar
@@ -130,6 +148,8 @@ cocina
 **LLAMAR A FINALES DE FEBRERO PORQUE TIENE ROTO EL TECHO**
 
 ////////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 ## Inmobiliarias

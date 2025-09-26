@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=GFgJkfScVNU&ab_channel=JavaScriptMastery
 
+## Intro
+
 **Advantages :** 
 - Consistency across environments
 - Isolation
@@ -19,7 +21,7 @@ Runnable instance of a docker image, we can run multiple containers from a simpl
 Docker network:
 Communication channel between containers or external services mantaining isolation.
 
-**Docker workflow:**
+## Docker workflow:
 
 Docker client:
 Interface to interacting with docker, command line or graphical interface
@@ -33,10 +35,10 @@ Centralized repository of docker images, hosts public and private registries or 
 ![[Pasted image 20250516020841.png]]
 
 13:47
-**DOCKERFILE**
+## DOCKERFILE
 Starts from dockerfile and tells how to build an imagen for the application, specifics instructions and keywords
 
-### **Commands**
+## Commands
 
 WORKDIR - COPY - RUN - EXPOSE - ENV - ARG - VOLUME - CMD - ENTRYPOINT
 
@@ -73,7 +75,7 @@ docker images
 docker run -it hello-docker sh
 ```
 
-**React docker application**
+## React docker application
 ```dockerfile
 # set the base image to create the image for react app
 FROM node:20-alpine
@@ -177,7 +179,7 @@ docker push <username>/<name_of_image>
 
 
 44:30
-### Docker Compose
+## Docker Compose
 
 uses yaml file to configure the services, networks and volumes
 multiple orchestrated containers interacting via nodes
@@ -199,7 +201,7 @@ Important files
 sudo docker compose up
 ```
 
-**docker compose watch**
+**Docker compose watch**
 listen to our changes and does some action : 
 - sync files when moved from the host to the container
 - rebuild
@@ -316,7 +318,7 @@ sudo docker compose watch
 scan for container vulnerabilities
 
 1:13:00
-**Dockerise a fullstack NextJS app**
+## Dockerise a fullstack NextJS app
 
 ```bash
 docker init
