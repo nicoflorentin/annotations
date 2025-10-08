@@ -39,6 +39,10 @@
 - **Log gráfico oneline:** `git log --oneline --graph --all --decorate`
 - **Mostrar cambios de un commit especifico:** `git show <sha>`
 
+### 🔀 Merge
+- **Mergear una rama a la rama actual:** `git merge <branch>
+- **Cancelar merge en proceso:** `git merge --abort`
+
 ### Configurar nombre y email : 
 
 git config --global user.name "John Doe"
