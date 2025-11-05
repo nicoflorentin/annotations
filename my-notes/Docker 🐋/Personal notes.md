@@ -47,3 +47,31 @@ psql -U $POSTGRES_USER -d $POSTGRES_DB
 docker exec -it mysql-db mysql -uroot -pmypassword
 ```
 
+### Entrar a contenedor mariadb
+```
+mariadb -h 127.0.0.1 -P 3306 -u root -p
+```
+Ver bases de datos
+```
+SHOW DATABASES;
+```
+Usar tu base de datos
+```
+USE nocountry;
+```
+Ver tablas
+```
+SHOW TABLES;
+```
+Ver estructura de una tabla
+```
+DESCRIBE doctors;
+```
+Ver datos
+```
+SELECT * FROM doctors;
+```
+Salir
+```
+EXIT;
+```
