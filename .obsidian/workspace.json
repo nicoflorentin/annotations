@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/Linux/Infrastructure Consulting Linux.md",
+                "file": "my-notes/Unsorted/Javascript - Nuevos métodos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Infrastructure Consulting Linux"
+              "title": "Javascript - Nuevos métodos"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "e1def95a945221cc",
   "lastOpenFiles": [
-    "my-notes/Linux/LINUX.md",
+    "my-notes/Unsorted/Google Chrome.md",
+    "my-notes/Unsorted/Choose IA.md",
     "my-notes/Linux/Infrastructure Consulting Linux.md",
+    "my-notes/Linux/LINUX.md",
     "my-notes/Git - GitHub/{ GIT } - Git y GitHub.md",
     "my-notes/Personal/GUION VIDEO.md",
     "my-notes/Docker 🐋/Personal notes.md",
@@ -219,8 +221,6 @@
     "my-notes/Personal/Aplicacion de sincronizacion de i cugini.md",
     "my-notes/Personal/Dudas.md",
     "my-notes/Job Prep/Autentication Autorization en Cliente y API.md",
-    "my-notes/Job Prep/Autorization example.md",
-    "my-notes/Job Prep/Promesas vs async-await, manejo de errores en Express, pooling en MySQL, índices, joins, transacciones.md",
     "my-notes/Job Prep",
     "my-notes/SQL",
     "my-notes/Linux",
