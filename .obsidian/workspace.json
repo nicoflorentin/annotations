@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-notes/Unsorted/Freelance.md",
+                "file": "my-notes/Unsorted/Programador 2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Freelance"
+              "title": "Programador 2026"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "a24f44d45dd1fd7e",
   "lastOpenFiles": [
-    "my-notes/Jest 🤡.md",
     "my-notes/Unsorted/Freelance.md",
+    "my-notes/Unsorted/Programador 2026.md",
+    "my-notes/Jest 🤡.md",
     "Personal/Untitled.md",
     "my-notes/Unsorted/Singleton.md",
     "Auth.md",
@@ -220,7 +221,6 @@
     "my-notes/Personal/Strava app.md",
     "my-notes/Personal/3 approachings para manejar el estado de selected task en pomodoroApp.md",
     "my-notes/Personal/Aplicacion de sincronizacion de i cugini.md",
-    "my-notes/Personal/Dudas.md",
     "my-notes/Job Prep",
     "my-notes/SQL",
     "my-notes/Linux",
